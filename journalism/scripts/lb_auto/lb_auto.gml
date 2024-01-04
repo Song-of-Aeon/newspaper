@@ -1,6 +1,6 @@
 function lb_auto(str, maxlength, lbchar="#", smart=true) {
 	var possible = true;
-	var j;
+	var i, j;
 	var xpos = 0;
 	var extrapos = 0;
 	var lbcount = 0;
