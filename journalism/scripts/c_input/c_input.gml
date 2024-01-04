@@ -35,7 +35,7 @@ function c_inputload() {
 	
 	nu kinput("map", [vk_tab, gp_face4], "Open map");
 	nu kinput("esc", [vk_escape, gp_start], "Pause");
-	nu kinput("select", [vk_enter], "Select");
+	nu kinput("select", [mb_left], "Select");
 	nu kinput("back", [vk_backspace], "Back");
 	nu kinput("skip", [vk_control, gp_select], "Skip text");
 	nu kinput("null", []);
