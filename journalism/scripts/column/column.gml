@@ -6,9 +6,12 @@ function column(contributor_, answers_, questions_=global.questions) constructor
 }
 
 global.questions = [
-	"what is your name?",
-	"what is your quest?",
-	"what is the airspeed velocity of an unladen swallow?"
+"What is your name?", "What is your specialty when it comes to development? Are you a programmer? Do you focus on the presentation such as music or artwork? Or are you a renaissance man and just do a bit of everything?",
+"Tell us a bit about yourself. Feel free to overshare to your heart's content.",
+"Would you consider yourself a fan of birds? What is your favorite, if you have any?",
+"What is your game? What will it be like? What birds will the birders be able to expect?!",
+"If you had to describe your game as a species of bird, which would it be?",
+"What's the most difficult part of the game development process for you?"
 ];
 
 array_push(global.paper.columns, new column("aeon", ["aeon", "make video gaem", "31.33 px/fr"]));
@@ -30,6 +33,7 @@ array_push(global.paper.columns, new column("Saishoo", [
 	"Yeah, pretty much. I’d imagine there’d be too much that I’ve done at least once to include in this interview without drawing it on for ages, but some notable things is tailoring, weaving, beading, rock climbing, cooking, game development, and learning several languages including Cree, Greek and Latin.",
 	"I just explore things out of curiosity, so I’d say the latter. Although I do suppose that curiosity is more so out of what other worldviews allow you to see the world in another lens, hence why I’m quite interested in travelling abroad and opening a restaurant.",
 	"Was planning to open up Mystia’s Izakaya, including everything from the menu in game (both base and DLCs), however it seems more likely and feasible at the moment to make it just a cafe. Definitely do have plans to open it up as an affordable yet delectable restaurant later down the road.",
+	"That question is interesting...I'd say a Cuckoo if we're talking behaviorally, but appearance wise? A night parrot.",
 	"No problem!"
 ], ["what is your name?", "Are you working on any self-submitted games this jam?", "What type of game is it?",
 "Sounds cool, I imagine there will be a variety of birds and we'll be looking for the odd one out? (Digs through Outside World Notes) Kinda like that Mario 64 DS minigame?",
@@ -37,7 +41,15 @@ array_push(global.paper.columns, new column("Saishoo", [
 "You mentioned a bird watching book - do you have any particular interest in birding or bird watching?", 
 "I've heard you've worked on a ton of other jam projects. Is there anything you don't do? You seem to dip your toes into just about everything life has to offer!",
 "Dang! You're not kidding. Is there something that drives you to pursue so many interests? Or do you think that exploring new experiences is just an aspect of your personality?",
-"I'm struggling to think of ways to tie things back to Gensokyo. or birds, so perhaps it's best I just leave you alone to resume the many projects I'm sure you're working on. Thank you for your time!"]));
+"Well to ties this back together completely naturally: If you had to describe your game as a species of bird, which would it be?",
+"Good luck the many projects I'm sure you're working on. Thank you for your time!"]));
+array_push(global.paper.columns, new column("Molly", ["My specialty is doing art assets for jam games, but I'm going to attempt to branch out into music production for the game I'm working on for this jam (if time allows!).",
+"My name is Molly and I like to make stuff. I've been drawing Touhou pictures and posting them on the internet. I also love visiting shrines when I'm procrastinating.",
+"The most difficult part of gamedev is managing my time, because I am a lazy bones who does a lot last minute! Another difficult (or maybe challenging) part is adapting the art style to the needs of the game direction, but it's also the most rewarding part because I enjoy being versatile.",
+"Between our gamedev duo, my boyfriend (our programming and writing half) is a huge fan of birds and has a growing interest in birdwatching, and through him I've gained a new interest in birds as well. They're mysterious creatures. I'm partial to herons and egrets, since there are some very large, majestic ones living quietly in the river in my hometown.",
+"Our game is a dating sim featuring five Touhou bird girls. We're hoping to take a silly, parody-like approach to classic anime and dating sim tropes with the twist of all characters being very birdlike in behavior (a crow girl rummaging through your morning garbage, a sparrow girl making you a bento of worms, etc) while also providing just enough emotional depth to not make it a complete joke, but rather a fun and enjoyable experience for all the people who complain about too many visual novels in game jams. We're paying tribute especially to visual novels by Key (Kanon, Air, Clannad) and also a VN for the Nintendo DS that I got for Christmas when I was 10. Each girl is a different type of bird (so it's not filled with just crow tengu!) and one in particular might be a little unexpected. They all have both girl and bird behaviors for fans of both to enjoy.",
+"Our game is, according to our programmer, 'uhhh, i don't know. hahaha. a penguin'."
+]));
 
 function c_drawpaper(page=0) {
 	draw_sprite_stretched(s_newspaper, 0, 0, 0, 1920, 1080);
