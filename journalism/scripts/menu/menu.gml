@@ -27,13 +27,15 @@ function c_drawbutton() {
 		draw_rectangle(topleft.x, topleft.y, bottomright.x, bottomright.y, false);
 		draw_set_color(c_white);
 		draw_set_alpha(1);
-		draw_set_halign(fa_right);
-		draw_text(bottomright.x, bottomright.y+4, "time cost: " + string(timecost) + " hour" + ((timecost != 1) ? "s" : ""));
-		draw_set_halign(fa_left);
+		if timecost {
+			draw_set_halign(fa_right);
+			draw_text(bottomright.x, bottomright.y+4, "time cost: " + string(timecost) + " hour" + ((timecost != 1) ? "s" : ""));
+			draw_set_halign(fa_left);
+		}
 	}
 }
 
-function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=1) constructor {
+function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=0) constructor {
 	hovered = false;
 	topleft = topleft_;
 	bottomright = bottomright_;
@@ -95,6 +97,33 @@ nu menu("otherstart", [
 	draw_set_halign(fa_left);
 });
 
-nu menu("start", [], function() {
-	c_drawpaper();
+nu menu("start", [
+	new button(
+		new vec2(WIDTH*.05, HEIGHT*.05),
+		new vec2(WIDTH*.15, HEIGHT*.15),
+		function() {
+			o_menuman.page--;
+		}, function() {
+			draw_meaning(x, y, "<-");
+			c_drawbutton();
+		}
+	),
+	new button(
+		new vec2(WIDTH*.85, HEIGHT*.05),
+		new vec2(WIDTH*.95, HEIGHT*.15),
+		function() {
+			o_menuman.page++;
+		}, function() {
+			draw_meaning(x, y, "->");
+			c_drawbutton();
+		}
+	),
+], function() {
+	with o_menuman {
+		statish("page", 0);
+		//log(self);
+		c_input();
+		page = cycle(page+right.hit-left.hit, array_length(global.paper.columns));
+		c_drawpaper(page);
+	}
 });
