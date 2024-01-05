@@ -1,8 +1,8 @@
 global.lightsout_container = []
-global.lightsout_size = 10
+global.lightsout_size = 30
 
-circle_radius = 100
-circle_mid_pos = [200,200]
+circle_radius = 200
+circle_mid_pos = [400,400]
 
 
 for (var i = 0; i < global.lightsout_size; i += 1)

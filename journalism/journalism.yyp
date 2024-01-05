@@ -233,10 +233,10 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
     {"roomId":{"name":"ayazone","path":"rooms/ayazone/ayazone.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"textfieldboxzone","path":"rooms/textfieldboxzone/textfieldboxzone.yy",},},
+    {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
