@@ -156,6 +156,7 @@
     {"id":{"name":"vlambeer","path":"scripts/vlambeer/vlambeer.yy",},},
     {"id":{"name":"st_backlog","path":"scripts/st_backlog/st_backlog.yy",},},
     {"id":{"name":"textfield","path":"scripts/textfield/textfield.yy",},},
+    {"id":{"name":"lo_timer","path":"objects/lo_timer/lo_timer.yy",},},
     {"id":{"name":"strword","path":"scripts/strword/strword.yy",},},
     {"id":{"name":"leet","path":"scripts/leet/leet.yy",},},
     {"id":{"name":"draw_curve","path":"scripts/draw_curve/draw_curve.yy",},},

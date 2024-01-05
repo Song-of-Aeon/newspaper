@@ -129,6 +129,7 @@
     {"name":"st_textstg","order":3,"path":"scripts/st_textstg/st_textstg.yy",},
     {"name":"vlambeer","order":1,"path":"scripts/vlambeer/vlambeer.yy",},
     {"name":"textfield","order":68,"path":"scripts/textfield/textfield.yy",},
+    {"name":"lo_timer","order":5,"path":"objects/lo_timer/lo_timer.yy",},
     {"name":"strword","order":27,"path":"scripts/strword/strword.yy",},
     {"name":"leet","order":35,"path":"scripts/leet/leet.yy",},
     {"name":"draw_curve","order":18,"path":"scripts/draw_curve/draw_curve.yy",},
