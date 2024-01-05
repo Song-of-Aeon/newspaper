@@ -64,11 +64,14 @@ function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=
 }
 
 
-nu menu("otherstart", [
+nu menu("start", [
 	new button(
 		new vec2(WIDTH*.4, HEIGHT*.5),
 		new vec2(WIDTH*.6, HEIGHT*.6),
-		game_end,
+		function() {
+			instance_destroy(o_menuman);
+			textbox_create(txt_toshiko);
+		},
 		function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
@@ -97,24 +100,24 @@ nu menu("otherstart", [
 	draw_set_halign(fa_left);
 });
 
-nu menu("start", [
+nu menu("paper", [
 	new button(
-		new vec2(WIDTH*.05, HEIGHT*.05),
-		new vec2(WIDTH*.15, HEIGHT*.15),
+		new vec2(121, 74),
+		new vec2(121+835, 74+932),
 		function() {
 			o_menuman.page--;
 		}, function() {
-			draw_meaning(x, y, "<-");
+			//draw_meaning(x, y, "<-");
 			c_drawbutton();
 		}
 	),
 	new button(
-		new vec2(WIDTH*.85, HEIGHT*.05),
-		new vec2(WIDTH*.95, HEIGHT*.15),
+		new vec2(962, 74),
+		new vec2(962+835, 74+932),
 		function() {
 			o_menuman.page++;
 		}, function() {
-			draw_meaning(x, y, "->");
+			//draw_meaning(x, y, "->");
 			c_drawbutton();
 		}
 	),

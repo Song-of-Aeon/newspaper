@@ -1,4 +1,4 @@
-textsurf = surface_create(640, 360);
+textsurf = surface_create(1920, 1080);
 msgscript = txt_;
 msg = [txt()];
 backlog = [];

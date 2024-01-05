@@ -28,20 +28,25 @@ array_push(global.paper.columns, new column("the venerable mr. ipsum", [
 ], ["what is your name?", "sorry, what was that?", "um, but about game development...?", "help"]));
 
 function c_drawpaper(page=0) {
+	draw_sprite_stretched(s_newspaper, 0, 0, 0, 1920, 1080);
+	
 	var headlinepos = new textthing(10, 40, fa_left, fa_top, 4, ft_sans);
 	var authorpos = new textthing(10, 90, fa_left, fa_top, 1, ft_sans);
 	var brandpos = new textthing(WIDTH/2, 20, fa_center, fa_top, 1, ft_sans);
-	var margin = 10;
-	var xdraw = margin;
-	var ydraw = margin+HEIGHT*.2;
+	var margin = 40;
+	var xdraw = 121+margin;
+	var ydraw = 74+margin;
 	var amount = ceil(array_length(global.paper.columns[page].answers)/2);
-	var width = (WIDTH-amount*margin-margin)/amount;
+	//var width = (WIDTH-amount*margin-margin)/amount;
+	var width = 835-margin*2;
 	//var width = WIDTH-margin*2;
-	var height = HEIGHT-ydraw-margin;
+	//var height = HEIGHT-ydraw-margin;
+	var height = 932-margin*2;
 	var textdraw = margin;
 	var bro, j, thing1;
 	var linebreakin = 4;
 	//iterate global.paper.columns to {
+	draw_set_color(#3F2D1B);
 	i = page;
 		draw_set_font(ft_whatever);
 		textdraw = margin;

@@ -55,5 +55,5 @@ if charpos < string_length(msg[talkpos].text) {
 }
 
 if !surface_exists(textsurf) {
-	textsurf = surface_create(room_width, room_height);
+	textsurf = surface_create(1920, 1080);
 }

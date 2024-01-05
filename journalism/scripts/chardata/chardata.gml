@@ -34,23 +34,13 @@ function talkchardraw(pos) {
 	} else {
 		alpha = max(alpha-(1-global.fading*.9), 0);
 	}
-	if sprite_get_height(sprite) > 360 {
-		draw_sprite_ext(
-			sprite, index, x, y,
-			ineg(position > SPRITEPOS.CENTER)/3, 1/3, 0,
-			//1, 1, 0,
-			make_color_hsv(0, 0, 255-(pos>0)*100), alpha
-			//c_white, alpha
-		);
-	} else {
-		draw_sprite_ext(
-			sprite, index, x, y,
-			ineg(position > SPRITEPOS.CENTER), 1, 0,
-			//1, 1, 0,
-			make_color_hsv(0, 0, 255-(pos>0)*100), alpha
-			//c_white, alpha
-		);
-	}
+	draw_sprite_ext(
+		sprite, index, x, y,
+		1, 1, 0,
+		//1, 1, 0,
+		make_color_hsv(0, 0, 255-(pos>0)*100), alpha
+		//c_white, alpha
+	);
 }
 
 enum ANIMTYPE {
