@@ -1,13 +1,22 @@
 randomize();
 
-global.gw = 1366;
-global.gh = 768;
+global.gw = 1920;
+global.gh = 1080;
 global.ratio = global.gh/global.gw;
 global.textguy = {};
 global.fading = false;
 global.volume = 100;
 global.music = 100;
 global.kunctions = {};
+global.menus = {};
+global.timeremaining = 72;
+global.paper = {
+	name: "toshikos awesome newspaper",
+	date: "jan 2024",
+	author: "toshiko",
+	brand: "iizunamaru post",
+	columns: [],
+}
 //global.gamesize = new vec2();
 //window_set_size(global.gamesize.x, global.gamesize.y);
 

@@ -1,10 +1,4 @@
-global.paper = {
-	name: "toshikos awesome newspaper",
-	date: "jan 2024",
-	author: "toshiko",
-	brand: "iizunamaru post",
-	columns: [],
-}
+
 function column(contributor_, answers_, questions_=global.questions) constructor {
 	contributor = contributor_;
 	answers = answers_;

@@ -38,7 +38,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"setup","path":"objects/setup/setup.yy",},},
@@ -123,6 +123,7 @@
     {"id":{"name":"sm_null","path":"scripts/sm_null/sm_null.yy",},},
     {"id":{"name":"array_append","path":"scripts/array_append/array_append.yy",},},
     {"id":{"name":"mod_negative","path":"scripts/mod_negative/mod_negative.yy",},},
+    {"id":{"name":"x_saishoo","path":"scripts/x_saishoo/x_saishoo.yy",},},
     {"id":{"name":"distabs_scr","path":"scripts/distabs_scr/distabs_scr.yy",},},
     {"id":{"name":"draw_shadow","path":"scripts/draw_shadow/draw_shadow.yy",},},
     {"id":{"name":"deep_compare","path":"scripts/deep_compare/deep_compare.yy",},},
@@ -190,6 +191,7 @@
     {"id":{"name":"statish","path":"scripts/statish/statish.yy",},},
     {"id":{"name":"o_persistent","path":"objects/o_persistent/o_persistent.yy",},},
     {"id":{"name":"c_randomname","path":"scripts/c_randomname/c_randomname.yy",},},
+    {"id":{"name":"s_desk","path":"sprites/s_desk/s_desk.yy",},},
     {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
     {"id":{"name":"c_loadprofiles","path":"scripts/c_loadprofiles/c_loadprofiles.yy",},},
@@ -243,7 +245,6 @@
     {"roomId":{"name":"textfieldboxzone","path":"rooms/textfieldboxzone/textfieldboxzone.yy",},},
     {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
