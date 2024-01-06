@@ -25,6 +25,7 @@
   "ResourceOrderSettings": [
     {"name":"setup","order":2,"path":"objects/setup/setup.yy",},
     {"name":"pragma","order":43,"path":"scripts/pragma/pragma.yy",},
+    {"name":"x_trace","order":14,"path":"scripts/x_trace/x_trace.yy",},
     {"name":"textbox_create","order":4,"path":"scripts/textbox_create/textbox_create.yy",},
     {"name":"huecol","order":28,"path":"scripts/huecol/huecol.yy",},
     {"name":"deep_copy","order":6,"path":"scripts/deep_copy/deep_copy.yy",},
@@ -208,6 +209,7 @@
     {"name":"array_generate_2d","order":7,"path":"scripts/array_generate_2d/array_generate_2d.yy",},
     {"name":"x_juney","order":7,"path":"scripts/x_juney/x_juney.yy",},
     {"name":"instance_nearest_array","order":15,"path":"scripts/instance_nearest_array/instance_nearest_array.yy",},
+    {"name":"x_solaris","order":13,"path":"scripts/x_solaris/x_solaris.yy",},
     {"name":"st_dayselect","order":48,"path":"scripts/st_dayselect/st_dayselect.yy",},
     {"name":"color_difference","order":16,"path":"scripts/color_difference/color_difference.yy",},
     {"name":"array_random","order":12,"path":"scripts/array_random/array_random.yy",},

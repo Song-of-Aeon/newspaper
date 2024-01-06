@@ -2,7 +2,7 @@ function txt_toshiko() {
 	
 	msg = msglang([
 	
-	txt("hi im toshiko (read this like \"hi im daisy\")", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("hi im toshiko (read this like \"hi im daisy\")", TOSHIKO.NEUTRAL, SPRITEPOS.LEFT),
 	txt(""),
 	txt(""),
 	

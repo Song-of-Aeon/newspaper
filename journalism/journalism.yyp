@@ -38,11 +38,12 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"setup","path":"objects/setup/setup.yy",},},
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
+    {"id":{"name":"x_trace","path":"scripts/x_trace/x_trace.yy",},},
     {"id":{"name":"textbox_create","path":"scripts/textbox_create/textbox_create.yy",},},
     {"id":{"name":"huecol","path":"scripts/huecol/huecol.yy",},},
     {"id":{"name":"deep_copy","path":"scripts/deep_copy/deep_copy.yy",},},
@@ -239,6 +240,7 @@
     {"id":{"name":"array_generate_2d","path":"scripts/array_generate_2d/array_generate_2d.yy",},},
     {"id":{"name":"x_juney","path":"scripts/x_juney/x_juney.yy",},},
     {"id":{"name":"instance_nearest_array","path":"scripts/instance_nearest_array/instance_nearest_array.yy",},},
+    {"id":{"name":"x_solaris","path":"scripts/x_solaris/x_solaris.yy",},},
     {"id":{"name":"st_dayselect","path":"scripts/st_dayselect/st_dayselect.yy",},},
     {"id":{"name":"color_difference","path":"scripts/color_difference/color_difference.yy",},},
     {"id":{"name":"array_random","path":"scripts/array_random/array_random.yy",},},
@@ -254,6 +256,7 @@
     {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
     {"roomId":{"name":"RAMENZONE","path":"rooms/RAMENZONE/RAMENZONE.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
