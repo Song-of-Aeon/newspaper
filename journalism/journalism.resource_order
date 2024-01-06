@@ -33,6 +33,7 @@
     {"name":"ds_list_to_array","order":25,"path":"scripts/ds_list_to_array/ds_list_to_array.yy",},
     {"name":"lb_auto","order":34,"path":"scripts/lb_auto/lb_auto.yy",},
     {"name":"s_sans","order":1,"path":"sprites/s_sans/s_sans.yy",},
+    {"name":"x_historyleaf","order":15,"path":"scripts/x_historyleaf/x_historyleaf.yy",},
     {"name":"x_molly","order":8,"path":"scripts/x_molly/x_molly.yy",},
     {"name":"input_release","order":30,"path":"scripts/input_release/input_release.yy",},
     {"name":"c_get_hook_name","order":3,"path":"scripts/c_get_hook_name/c_get_hook_name.yy",},

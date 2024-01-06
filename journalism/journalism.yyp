@@ -51,6 +51,7 @@
     {"id":{"name":"ds_list_to_array","path":"scripts/ds_list_to_array/ds_list_to_array.yy",},},
     {"id":{"name":"lb_auto","path":"scripts/lb_auto/lb_auto.yy",},},
     {"id":{"name":"s_sans","path":"sprites/s_sans/s_sans.yy",},},
+    {"id":{"name":"x_historyleaf","path":"scripts/x_historyleaf/x_historyleaf.yy",},},
     {"id":{"name":"o_","path":"objects/o_/o_.yy",},},
     {"id":{"name":"x_molly","path":"scripts/x_molly/x_molly.yy",},},
     {"id":{"name":"input_release","path":"scripts/input_release/input_release.yy",},},
