@@ -144,6 +144,7 @@
     {"id":{"name":"c_evaluate","path":"scripts/c_evaluate/c_evaluate.yy",},},
     {"id":{"name":"chardata","path":"scripts/chardata/chardata.yy",},},
     {"id":{"name":"munction","path":"scripts/munction/munction.yy",},},
+    {"id":{"name":"x_liam","path":"scripts/x_liam/x_liam.yy",},},
     {"id":{"name":"draw_polygon","path":"scripts/draw_polygon/draw_polygon.yy",},},
     {"id":{"name":"x_touhouwords","path":"scripts/x_touhouwords/x_touhouwords.yy",},},
     {"id":{"name":"ac_sin","path":"animcurves/ac_sin/ac_sin.yy",},},

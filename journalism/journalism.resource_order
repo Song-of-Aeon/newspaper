@@ -119,6 +119,7 @@
     {"name":"c_evaluate","order":1,"path":"scripts/c_evaluate/c_evaluate.yy",},
     {"name":"chardata","order":15,"path":"scripts/chardata/chardata.yy",},
     {"name":"munction","order":14,"path":"scripts/munction/munction.yy",},
+    {"name":"x_liam","order":10,"path":"scripts/x_liam/x_liam.yy",},
     {"name":"draw_polygon","order":8,"path":"scripts/draw_polygon/draw_polygon.yy",},
     {"name":"x_touhouwords","order":65,"path":"scripts/x_touhouwords/x_touhouwords.yy",},
     {"name":"gcd","order":6,"path":"scripts/gcd/gcd.yy",},
