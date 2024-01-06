@@ -223,6 +223,7 @@
     {"id":{"name":"with_array","path":"scripts/with_array/with_array.yy",},},
     {"id":{"name":"draw_outline","path":"scripts/draw_outline/draw_outline.yy",},},
     {"id":{"name":"se_sans","path":"sounds/se_sans/se_sans.yy",},},
+    {"id":{"name":"x_menulots","path":"scripts/x_menulots/x_menulots.yy",},},
     {"id":{"name":"ncms","path":"scripts/ncms/ncms.yy",},},
     {"id":{"name":"draw_thing","path":"scripts/draw_thing/draw_thing.yy",},},
     {"id":{"name":"song","path":"scripts/song/song.yy",},},

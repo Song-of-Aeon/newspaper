@@ -55,6 +55,7 @@ function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=
 		//log(topleft, bottomright);
 		//log(width, height);
 		hovered = mouse_within(topleft.x, topleft.y, bottomright.x, bottomright.y);
+		log("wow!")
 		if hovered && clicky && global.timeremaining >= timecost {
 			log("yippee!");
 			global.timeremaining -= timecost;
