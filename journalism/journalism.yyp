@@ -208,6 +208,7 @@
     {"id":{"name":"txt","path":"scripts/txt/txt.yy",},},
     {"id":{"name":"x_hylicswords","path":"scripts/x_hylicswords/x_hylicswords.yy",},},
     {"id":{"name":"sm_parse","path":"scripts/sm_parse/sm_parse.yy",},},
+    {"id":{"name":"s_rakaasac","path":"sprites/s_rakaasac/s_rakaasac.yy",},},
     {"id":{"name":"easemult","path":"scripts/easemult/easemult.yy",},},
     {"id":{"name":"AYAZONE","path":"rooms/AYAZONE/AYAZONE.yy",},},
     {"id":{"name":"nunction","path":"scripts/nunction/nunction.yy",},},

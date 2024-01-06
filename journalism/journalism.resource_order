@@ -178,6 +178,7 @@
     {"name":"txt","order":59,"path":"scripts/txt/txt.yy",},
     {"name":"x_hylicswords","order":64,"path":"scripts/x_hylicswords/x_hylicswords.yy",},
     {"name":"sm_parse","order":46,"path":"scripts/sm_parse/sm_parse.yy",},
+    {"name":"s_rakaasac","order":6,"path":"sprites/s_rakaasac/s_rakaasac.yy",},
     {"name":"easemult","order":26,"path":"scripts/easemult/easemult.yy",},
     {"name":"AYAZONE","order":2,"path":"rooms/AYAZONE/AYAZONE.yy",},
     {"name":"nunction","order":40,"path":"scripts/nunction/nunction.yy",},
