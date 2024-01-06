@@ -197,6 +197,7 @@
     {"name":"with_array","order":16,"path":"scripts/with_array/with_array.yy",},
     {"name":"draw_outline","order":6,"path":"scripts/draw_outline/draw_outline.yy",},
     {"name":"se_sans","order":3,"path":"sounds/se_sans/se_sans.yy",},
+    {"name":"x_menulots","order":7,"path":"scripts/x_menulots/x_menulots.yy",},
     {"name":"ncms","order":38,"path":"scripts/ncms/ncms.yy",},
     {"name":"draw_thing","order":24,"path":"scripts/draw_thing/draw_thing.yy",},
     {"name":"song","order":3,"path":"scripts/song/song.yy",},

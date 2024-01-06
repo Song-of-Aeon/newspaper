@@ -38,7 +38,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"setup","path":"objects/setup/setup.yy",},},
@@ -228,6 +228,7 @@
     {"id":{"name":"with_array","path":"scripts/with_array/with_array.yy",},},
     {"id":{"name":"draw_outline","path":"scripts/draw_outline/draw_outline.yy",},},
     {"id":{"name":"se_sans","path":"sounds/se_sans/se_sans.yy",},},
+    {"id":{"name":"x_menulots","path":"scripts/x_menulots/x_menulots.yy",},},
     {"id":{"name":"ncms","path":"scripts/ncms/ncms.yy",},},
     {"id":{"name":"draw_thing","path":"scripts/draw_thing/draw_thing.yy",},},
     {"id":{"name":"song","path":"scripts/song/song.yy",},},
@@ -251,7 +252,6 @@
     {"roomId":{"name":"textfieldboxzone","path":"rooms/textfieldboxzone/textfieldboxzone.yy",},},
     {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

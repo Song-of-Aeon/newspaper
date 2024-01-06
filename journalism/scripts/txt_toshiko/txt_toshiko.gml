@@ -12,5 +12,7 @@ function txt_toshiko() {
 	
 	]);
 	
-	endevent = c_null;
+	endevent = function() {
+		c_makemenu(global.menus.main);
+	};
 }

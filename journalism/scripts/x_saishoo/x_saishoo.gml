@@ -1,3 +1,4 @@
+
 array_push(global.paper.columns, new column("Saishoo", [
 	"Saishoo!",
 	"Yep!",
