@@ -41,6 +41,7 @@
     {"name":"is_oob","order":9,"path":"scripts/is_oob/is_oob.yy",},
     {"name":"rmrng","order":22,"path":"scripts/rmrng/rmrng.yy",},
     {"name":"easing","order":5,"path":"scripts/easing/easing.yy",},
+    {"name":"x_vinyis","order":11,"path":"scripts/x_vinyis/x_vinyis.yy",},
     {"name":"spr_lo_off","order":4,"path":"sprites/spr_lo_off/spr_lo_off.yy",},
     {"name":"animation_destroy","order":4,"path":"scripts/animation_destroy/animation_destroy.yy",},
     {"name":"array_get_indeces","order":9,"path":"scripts/array_get_indeces/array_get_indeces.yy",},
