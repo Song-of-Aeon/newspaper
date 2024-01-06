@@ -114,6 +114,7 @@
     {"name":"nam","order":15,"path":"scripts/nam/nam.yy",},
     {"name":"array_front","order":6,"path":"scripts/array_front/array_front.yy",},
     {"name":"is_client","order":31,"path":"scripts/is_client/is_client.yy",},
+    {"name":"x_icedlemon","order":12,"path":"scripts/x_icedlemon/x_icedlemon.yy",},
     {"name":"format_time","order":8,"path":"scripts/format_time/format_time.yy",},
     {"name":"draw_sprite_at","order":11,"path":"scripts/draw_sprite_at/draw_sprite_at.yy",},
     {"name":"array_create_depth","order":5,"path":"scripts/array_create_depth/array_create_depth.yy",},

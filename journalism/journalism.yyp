@@ -137,6 +137,7 @@
     {"id":{"name":"nam","path":"scripts/nam/nam.yy",},},
     {"id":{"name":"array_front","path":"scripts/array_front/array_front.yy",},},
     {"id":{"name":"is_client","path":"scripts/is_client/is_client.yy",},},
+    {"id":{"name":"x_icedlemon","path":"scripts/x_icedlemon/x_icedlemon.yy",},},
     {"id":{"name":"format_time","path":"scripts/format_time/format_time.yy",},},
     {"id":{"name":"o_flash","path":"objects/o_flash/o_flash.yy",},},
     {"id":{"name":"draw_sprite_at","path":"scripts/draw_sprite_at/draw_sprite_at.yy",},},
