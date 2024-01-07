@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"se_failure","order":2,"path":"sounds/se_failure/se_failure.yy",},
+    {"name":"AYAZONE3","order":1,"path":"rooms/AYAZONE3/AYAZONE3.yy",},
     {"name":"se_lightswitch","order":1,"path":"sounds/se_lightswitch/se_lightswitch.yy",},
   ],
 }

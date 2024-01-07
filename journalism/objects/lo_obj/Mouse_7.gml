@@ -57,4 +57,5 @@ else
 	{
 		instance_destroy(lo_timer);
 		textbox_create(txt_sleepwin);
+		instance_destroy(lo_obj);
 	}

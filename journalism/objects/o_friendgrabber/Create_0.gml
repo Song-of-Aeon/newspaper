@@ -1,16 +1,20 @@
 music_set(mus.minigame2);
 c_input();
-target = irandom(3);
 roles = ["Artist", "Test Reader", "Distributor", "Interviewer"];
+target = irandom(3);
+if (global.recruit_char == "Artist") target = 0;
+else if (global.recruit_char == "Test Reader") target = 1;
+else if (global.recruit_char == "Distributor") target = 2;
+else if (global.recruit_char == "Interviewer") target = 3;
 var funky = function() {
 	if mouse_within(x-sprite_width*.35, y-sprite_height*.35, x+sprite_width*.35, y+sprite_height*.35) && o_friendgrabber.select.hit {
 		o_friendgrabber.select.hit = false;
-		if image_index != o_friendgrabber.target {
+		if !(image_index != o_friendgrabber.target) {
+			room_goto(AYAZONE3);
+		} else {
+			audio_play_sound(se_failure, 1, false);
 			global.timeremaining--;
 			room_restart();
-		} else {
-			room_goto(GENERALZONE);
-			c_makemenu(global.menus.main);
 		}
 		kys;
 	}

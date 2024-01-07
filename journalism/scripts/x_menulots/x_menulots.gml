@@ -242,6 +242,26 @@ nu menu("main", [
 		}, 6
 	),
 	*/
+		new button(
+		new vec2(1499, 574),
+		new vec2(1499+370, 574+125),
+		function() {
+			instance_destroy(o_menuman);
+			textbox_create(txt_recruit);
+		}, function() {
+			if (global.recruittimeremaining == 4) global.recruit_char = "Artist"
+			if (global.recruittimeremaining == 3) global.recruit_char = "Test Reader"
+			if (global.recruittimeremaining == 2) global.recruit_char = "Distributor"
+			if (global.recruittimeremaining == 1) global.recruit_char = "Interviewer"
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			draw_meaning(x, y, "Recruit");
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			c_drawbutton();
+		}, 1,
+	),
+	
 	new button(
 		new vec2(1499, 874),
 		new vec2(1499+370, 874+125),
