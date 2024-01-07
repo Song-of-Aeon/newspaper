@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Sky_Small",
-  "bbox_bottom": 511,
+  "bbox_bottom": 895,
   "bbox_left": 0,
-  "bbox_right": 511,
+  "bbox_right": 895,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28cfdb7b-43e1-42fc-a1c2-69dd6588291c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4fb057b3-2a19-4c6b-87f9-df0b46fab418",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 512,
+  "height": 896,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a45b8309-5b56-4f77-90dd-dd76d81ff0b2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"db9dc865-5f8c-4461-b5b4-682b8e65ca9d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28cfdb7b-43e1-42fc-a1c2-69dd6588291c","path":"sprites/Sky_Small/Sky_Small.yy",},},},"Disabled":false,"id":"254358a9-8723-425c-9f63-9018b4189ee6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4fb057b3-2a19-4c6b-87f9-df0b46fab418","path":"sprites/Sky_Small/Sky_Small.yy",},},},"Disabled":false,"id":"5a0c2832-98d2-4d9b-b5ec-36b781109619","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 512,
+  "width": 896,
 }

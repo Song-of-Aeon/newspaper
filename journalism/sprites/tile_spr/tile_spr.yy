@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tile_spr",
-  "bbox_bottom": 127,
+  "bbox_bottom": 223,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 223,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 128,
+  "height": 224,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e720a037-c932-4b2e-a085-1dbe5f8a6af1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 128,
+  "width": 224,
 }

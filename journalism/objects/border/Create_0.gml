@@ -1,3 +1,5 @@
+//global.slide_tile_size = 244
+
 function get_empty_tile_adj()
 {
 	var adjacentTile = [

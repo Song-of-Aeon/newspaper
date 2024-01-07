@@ -2,7 +2,7 @@
 	draw_self()
 	draw_set_color(c_black)
 	draw_text(x,y,value)
-	draw_sprite_part(Sky_Small, 0, ((value - 1) mod 4) * 128, floor((value - 1)/4) * 128, 128, 128, x, y)
+	draw_sprite_part(Sky_Small, 0, ((value - 1) mod 4) * sprite_get_width(tile_spr), floor((value - 1)/4) * sprite_get_height(tile_spr), sprite_get_width(tile_spr), sprite_get_height(tile_spr), x, y)
 	
 	draw_set_colour($FF000000 & $ffffff);
 	var l652FB659_0=($FF000000 >> 24);
