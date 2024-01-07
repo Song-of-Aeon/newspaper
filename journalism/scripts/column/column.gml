@@ -56,7 +56,7 @@ function c_drawpaper(page=0) {
 		textdraw += linebreakin*4;
 		for (j=0; j<array_length(bro.answers); j++) {
 			
-			thing1 = lb_auto(bro.questions[j], width-margin*2, "\n");
+			/*thing1 = lb_auto(bro.questions[j], width-margin*2, "\n");
 			textdraw += string_height(thing1)+linebreakin;
 			thing1 = lb_auto(bro.answers[j], width-margin*2, "\n")
 			textdraw += string_height(thing1)+linebreakin;
@@ -67,7 +67,12 @@ function c_drawpaper(page=0) {
 				xdraw += width+margin;
 				draw_rectangle(xdraw, ydraw, xdraw+width, ydraw+height, true);
 			}
-			textdraw = 0;
+			textdraw = 0;*/
+			if textdraw >= height*.65 {
+				xdraw += width+margin*2;
+				draw_rectangle(xdraw, ydraw, xdraw+width, ydraw+height, true);
+				textdraw = linebreakin*8;
+			}
 			
 			
 			thing1 = lb_auto(bro.questions[j], width-margin*2, "\n");
