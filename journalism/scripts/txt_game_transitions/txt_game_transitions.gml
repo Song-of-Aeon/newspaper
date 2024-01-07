@@ -176,14 +176,34 @@ function txt_recruitfail() {
 }
 
 function txt_publish(){
+	if (array_length(global.paper.columns)== 0){
+		msg = msglang([
+		btxt(s_desk),
+		txt("I didn't have time to interview anyone...", TOSHIKO.TIRED, SPRITEPOS.CENTER),
+		txt("Try again!")
+		]);
+	}
+	else{
 	msg = msglang([
 		btxt(s_desk),
 	txt("The newspaper is ready!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
 	txt("Your interviews are ready to read. Click on pages to go forward and back through the newspaper.")
 	]);
+	}
 	endevent = function() {
+		if (array_length(global.paper.columns)== 0){
+			instance_destroy(o_menuman);
+			c_makemenu(global.menus.start);
+			music_set(mus.title);
+			global.timeremaining = 72;
+			global.recruittimeremaining = 4;
+			global.paper.columns = [];
+		}
+		else
+		{
 		music_set(mus.reading);
 		global.gameflag = false;
 		c_makemenu(global.menus.paper);
+		}
 	}
 }

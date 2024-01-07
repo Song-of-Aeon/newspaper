@@ -80,7 +80,7 @@ nu menu("start", [
 		function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
-			draw_meaning(x, y, "henlo :]", u, 2);
+			draw_meaning(x, y, "Start", u, 2);
 			draw_set_valign(fa_top);
 			draw_set_halign(fa_left);
 			c_drawbutton();
@@ -93,7 +93,7 @@ nu menu("start", [
 		function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
-			draw_meaning(x, y, "godbye :[", u, 2);
+			draw_meaning(x, y, "Quit", u, 2);
 			draw_set_valign(fa_top);
 			draw_set_halign(fa_left);
 			c_drawbutton();
@@ -102,7 +102,7 @@ nu menu("start", [
 ], function() {
 	draw_spr(0, 0, s_desk);
 	draw_set_halign(fa_center);
-	draw_meaning(WIDTH/2, HEIGHT*.15, "the ultimate\nnewspaper", u, 5);
+	draw_meaning(WIDTH/2, HEIGHT*.15, "Touhou: Game Jam \n Kerfluffle", u, 5);
 	draw_set_halign(fa_left);
 });
 
@@ -134,6 +134,9 @@ nu menu("paper", [
 			instance_destroy(o_menuman);
 			c_makemenu(global.menus.start);
 			music_set(mus.title);
+			global.timeremaining = 72;
+			global.recruittimeremaining = 4;
+			global.paper.columns = [];
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);

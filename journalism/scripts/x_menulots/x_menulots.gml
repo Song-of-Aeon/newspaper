@@ -246,7 +246,8 @@ nu menu("main", [
 		new vec2(1499, 574),
 		new vec2(1499+370, 574+125),
 		function() {
-			if (global.recruittimeremaining >= 1){
+			if (global.recruittimeremaining >= 1)
+			{
 			instance_destroy(o_menuman);
 			textbox_create(txt_recruit);
 			}
