@@ -14,6 +14,7 @@ global.questions = [
 "If you had to describe your game as a species of bird, which would it be?"
 ];
 
+/*
 array_push(global.paper.columns, new column("aeon", ["aeon", "make video gaem", "31.33 px/fr"]));
 array_push(global.paper.columns, new column("aya shameimaru", ["aya!", "the truth, the whole truth, and nothing but the truth!", "you wanna see?"]));
 array_push(global.paper.columns, new column("tsubakura enraku", ["what?", "booze.", "please go away."]));
@@ -23,7 +24,7 @@ array_push(global.paper.columns, new column("the venerable mr. ipsum", [
 	"Etiam eleifend egestas nisi, ut maximus arcu mollis a. Duis porttitor, metus sit amet varius posuere, metus neque gravida purus, eu luctus ex nisi laoreet erat. Pellentesque vel tristique ante, vel aliquam massa.",
 	"Vivamus ac ex in odio consectetur efficitur. Vivamus in cursus mi, lacinia tincidunt est. Nullam nec dignissim sapien. Sed non semper tortor. Praesent quis dui fringilla, blandit nibh eget, mollis enim."
 ], ["what is your name?", "sorry, what was that?", "um, but about game development...?", "help"]));
-
+*/
 
 function c_drawpaper(page=0) {
 	draw_sprite_stretched(s_newspaper, 0, 0, 0, 1920, 1080);

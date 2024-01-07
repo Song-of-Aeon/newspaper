@@ -1,3 +1,5 @@
+function historyleaf_column()
+{
 array_push(global.paper.columns, new column("Historyleaf", [
 "historyleaf37 for my username, but you can just call me leaf.",
 "i've always worked as the artist, haha. i've done a variety of assets like pixel art, vn portraits and backgrounds. besides working on teams, i've also been developing a small solo project, of which i'm handling everything.",
@@ -21,3 +23,4 @@ array_push(global.paper.columns, new column("Historyleaf", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Feisty. That's everything. Thank your for your time!"
 ]));
+}

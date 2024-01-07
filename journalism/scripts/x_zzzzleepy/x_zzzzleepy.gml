@@ -1,3 +1,4 @@
+function zzzzleepy_column(){
 array_push(global.paper.columns, new column("ZzzZleepy", [
 "Hmm I mostly do art- or well just design i guess- i love when a game looks pretty. though for this one project im kind of attempting voice acting- just for fun.",
 "HAI!!! IM Z (ZzzZooie)!! i do art and i just really like drawing girls !!!! ive been drawing for,, a  few years now. ive never dabbled into fanart or anything until recently since touhou characters hit different to draw :). these game jams have been my real first time getting into game development and its inspiring, im hoping one day ill start my own lil group. but yea thats all i think i have to say abt myself.",
@@ -20,3 +21,4 @@ array_push(global.paper.columns, new column("ZzzZleepy", [
 "And as a bonus: If you had to describe your game as a specie of bug, which would it be?",
 "Alright, that's everything. Thank your for your time!"
 ]));
+}

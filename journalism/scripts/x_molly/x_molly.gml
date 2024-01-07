@@ -1,3 +1,4 @@
+function molly_column(){
 array_push(global.paper.columns, new column("Molly", [
 "My specialty is doing art assets for jam games, but I'm going to attempt to branch out into music production for the game I'm working on for this jam (if time allows!)",
 "My name is Molly and I like to make stuff. I've been drawing Touhou pictures and posting them on the internet. I also love visiting shrines when I'm procrastinating.",
@@ -13,3 +14,4 @@ array_push(global.paper.columns, new column("Molly", [
 "What is your game? What will it be like? What birds will the birders be able to expect?!",
 "If you had to describe your game as a species of bird, which would it be?"
 ]));
+}

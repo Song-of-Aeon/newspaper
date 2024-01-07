@@ -1,3 +1,4 @@
+function liam_column(){
 array_push(global.paper.columns, new column("Liam", [
 "liam... or leim that's what i set discord and itch to lol",
 "I tend to like to do a bit of everything except programming, but I can pull through when needed. Recently I've been doing audio and game design, but I can also do art if needed. Really, I'd say I'm just something of the creative/idea guy.",
@@ -15,3 +16,4 @@ array_push(global.paper.columns, new column("Liam", [
 "What an excellent bird. Lastly, what is the hardest part of the game development process for you?",
 "Alright. Thank you for your time. I look forward to the 'bird bullets'!",
 ]));
+}
