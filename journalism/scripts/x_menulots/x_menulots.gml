@@ -272,7 +272,7 @@ nu menu("main", [
 			{
 				draw_meaning(x, y - 40, "***", u, u, c_black);
 			}
-			draw_meaning(x, y, "the rad remix");
+			draw_meaning(x, y, "the red remix");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
 			c_drawbutton();

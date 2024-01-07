@@ -1,5 +1,5 @@
 function rad_column(){
-array_push(global.paper.columns, new column("The Rad Remix", [
+array_push(global.paper.columns, new column("The Red Remix", [
 "I'm much more of a programmer but if push comes to shove I can do a bit of art (although it's not that great).",
 "I've been developing small games for myself in gamemaker for almost 3 years now but have never publicly realised them, I decided to participate in this jam because i hadn't made a game for several months and wanted to get back into the hobby.",
 "The most difficult part of the game development process is definitely the bug fixing. I mostly work alone so I've never really developed a knack for creating developer comments, so when it comes round to bug fixing I have a hard time figuring out what does what.",
