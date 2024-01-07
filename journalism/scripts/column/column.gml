@@ -52,17 +52,29 @@ function c_drawpaper(page=0) {
 		textdraw = margin;
 		bro = global.paper.columns[i];
 		draw_rectangle(xdraw, ydraw, xdraw+width, ydraw+height, true);
-		textdraw += draw_meaning(xdraw+margin, ydraw+textdraw, lb_auto("interviewee:", width-margin*2, "\n"))+linebreakin;
+		textdraw += draw_meaning(xdraw+margin, ydraw+textdraw, lb_auto("Interviewee:", width-margin*2, "\n"))+linebreakin;
 		textdraw += draw_meaning(xdraw+margin, ydraw+textdraw, lb_auto(bro.contributor, width-margin*2, "\n"))+linebreakin;
 		textdraw += linebreakin*4;
 		for (j=0; j<array_length(bro.answers); j++) {
-			if textdraw >= height*.65 {
+			
+			thing1 = lb_auto(bro.questions[j], width-margin*2, "\n");
+			textdraw += string_height(thing1)+linebreakin;
+			thing1 = lb_auto(bro.answers[j], width-margin*2, "\n")
+			textdraw += string_height(thing1)+linebreakin;
+			textdraw += linebreakin*4;
+			
+			
+			if textdraw >= height {
 				xdraw += width+margin;
 				draw_rectangle(xdraw, ydraw, xdraw+width, ydraw+height, true);
-				textdraw = 0;
 			}
+			textdraw = 0;
+			
+			
 			thing1 = lb_auto(bro.questions[j], width-margin*2, "\n");
 			draw_meaning(xdraw+margin, ydraw+textdraw, thing1);
+			draw_meaning(xdraw+margin+1, ydraw+textdraw, thing1);
+			draw_meaning(xdraw+margin+2, ydraw+textdraw, thing1);
 			textdraw += string_height(thing1)+linebreakin;
 			draw_set_halign(fa_right);
 			thing1 = lb_auto(bro.answers[j], width-margin*2, "\n")
