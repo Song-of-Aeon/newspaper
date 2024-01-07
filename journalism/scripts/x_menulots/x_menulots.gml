@@ -258,6 +258,26 @@ nu menu("main", [
 			c_drawbutton();
 		}, 6
 	),
+	new button(
+		new vec2(1208, 653),
+		new vec2(1208+270, 653+125),
+		function() {
+			rad_column();
+			textbox_create(txt_interviews);
+			instance_destroy(o_menuman);
+		}, function() {
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "rad") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
+			draw_meaning(x, y, "the rad remix");
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			c_drawbutton();
+		}, 6
+	),
 	/*
 	new button(
 		new vec2(1489, 412),

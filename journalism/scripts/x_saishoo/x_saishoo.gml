@@ -1,7 +1,7 @@
 function saishoo_column(){
 array_push(global.paper.columns, new column("Saishoo", [
 	"Yep!",
-	"Where’s Waldo type game.",
+	"Where's Waldo type game.",
 	"Yep, exactly!",
 	"I'd say... I actually forget how the idea spawned, I was thinking, thought of the bird watching book of NA (North America) and then decided to do a game similar to a where’s Waldo book. I think partial inspiration also came from trying to make a simple, 'easy' game.",
 	"Not particularly... not currently, at least. I had a slight intrigue it in a handful of years prior, but now I’ve found a notice for culinary arts.",

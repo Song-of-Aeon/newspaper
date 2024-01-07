@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"setup","path":"objects/setup/setup.yy",},},
@@ -55,7 +55,7 @@
     {"id":{"name":"s_sans","path":"sprites/s_sans/s_sans.yy",},},
     {"id":{"name":"x_historyleaf","path":"scripts/x_historyleaf/x_historyleaf.yy",},},
     {"id":{"name":"o_","path":"objects/o_/o_.yy",},},
-    {"id":{"name":"x_molly","path":"scripts/x_molly/x_molly.yy",},},
+    {"id":{"name":"x_rad","path":"scripts/x_rad/x_rad.yy",},},
     {"id":{"name":"input_release","path":"scripts/input_release/input_release.yy",},},
     {"id":{"name":"c_get_hook_name","path":"scripts/c_get_hook_name/c_get_hook_name.yy",},},
     {"id":{"name":"se_play","path":"scripts/se_play/se_play.yy",},},
@@ -180,6 +180,7 @@
     {"id":{"name":"draw_sprite_weird","path":"scripts/draw_sprite_weird/draw_sprite_weird.yy",},},
     {"id":{"name":"c_charpush","path":"scripts/c_charpush/c_charpush.yy",},},
     {"id":{"name":"txtexts","path":"scripts/txtexts/txtexts.yy",},},
+    {"id":{"name":"x_molly","path":"scripts/x_molly/x_molly.yy",},},
     {"id":{"name":"x_fontsetup","path":"scripts/x_fontsetup/x_fontsetup.yy",},},
     {"id":{"name":"st_textstg","path":"scripts/st_textstg/st_textstg.yy",},},
     {"id":{"name":"vlambeer","path":"scripts/vlambeer/vlambeer.yy",},},
@@ -308,6 +309,7 @@
     {"roomId":{"name":"FRIENDZONE","path":"rooms/FRIENDZONE/FRIENDZONE.yy",},},
     {"roomId":{"name":"AYAZONE3","path":"rooms/AYAZONE3/AYAZONE3.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
