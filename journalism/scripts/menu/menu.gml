@@ -9,11 +9,13 @@ function menu(name_, buttons_, draw_=c_null) constructor {
 }
 function c_makemenu(menu_) {
 	var chump = observer_create(o_menuman);
-	if global.timeremaining {
+	//if global.timeremaining {
 		chump.themenu = deep_copy(menu_);
-	} else {
+	/*} else {
 		
-	}
+	}*/
+	log(chump.themenu);
+	log("KYS NOW");
 	return chump;
 }
 

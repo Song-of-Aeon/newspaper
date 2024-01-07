@@ -31,17 +31,22 @@ function txt_sleeptutorial() {
 }
 function txt_sleepwin() {
 	msg = msglang([
-	txt("You turned all the lights off in time! Eight hours have passed!")
-]);
+		txt("You turned all the lights off in time! Eight hours have passed!")
+	]);
+	//c_makemenu(global.menus.main);
 	endevent = function() {
-		room_goto(AYAZONE2);
+		
 		global.timeremaining -= 8;
 		audio_play_sound(se_successful, 1, false);
 		music_choice = random(2);
 		if music_choice <= 1 music_set(mus.interview1);
 		else music_set(mus.interview2);
+		if !c_minigamecheck() {
+			c_makemenu(global.menus.main);
+			log("KILL YOURSELF IMMEDIATELY");
+			//room_goto(AYAZONE2);
+		}
 		
-		if !c_minigamecheck() c_makemenu(global.menus.main);
 	};
 }
 function txt_sleeplose(){

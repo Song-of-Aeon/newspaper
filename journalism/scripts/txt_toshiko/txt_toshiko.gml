@@ -52,7 +52,7 @@ function c_minigamecheck() {
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
-	} else if !global.didramen && global.timeremaining <= 72-7 {
+	}/* else if !global.didramen && global.timeremaining <= 72-7 {
 		room_goto(RAMENZONE);
 		global.didramen++;
 		did = true;
@@ -72,7 +72,8 @@ function c_minigamecheck() {
 		room_goto(RAMENZONE);
 		global.didramen++;
 		did = true;
-	}
+	}*/
+	log(did);
 	return did;
 }
 
