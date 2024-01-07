@@ -41,15 +41,15 @@ function c_minigamecheck() {
 	//worst function youve ever seen, i dont care, its a jam game
 	var did = false;
 	if !global.didsleep && global.timeremaining <= 72-12 {
-		room_goto(lightsout);
+		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if global.didsleep < 2 && global.timeremaining <= 72-36 {
-		room_goto(lightsout);
+		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if global.didsleep < 3 && global.timeremaining <= 72-60 {
-		room_goto(lightsout);
+		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if !global.didramen && global.timeremaining <= 72-7 {

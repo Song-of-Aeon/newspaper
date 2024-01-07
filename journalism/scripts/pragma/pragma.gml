@@ -18,6 +18,7 @@ global.paper = {
 	brand: "iizunamaru post",
 	columns: [],
 }
+global.unlocks = [];
 global.questions = [
 "What is your specialty when it comes to development? Are you a programmer? Do you focus on the presentation such as music or artwork? Or are you a renaissance man and just do a bit of everything?",
 "What's the most difficult part of the game development process for you?",
