@@ -6,7 +6,7 @@ global.textstyles.adv = {
 	width: 394*3,
 	height: 60*3,
 	spriteposy: 150*3,
-	namepos: new vec2(147*3, (250-24)*3),
+	namepos: new vec2(147*3+40, (250-24)*3-18),
 	sprite: s_spacetext,
 	type: st_textadv,
 	font: ft_sans,
