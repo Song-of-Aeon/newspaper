@@ -24,7 +24,6 @@ function txt_sleeptutorial() {
 	
 	]);
 	endevent = function() {
-		instance_destroy(o_menuman);
 		music_set(mus.minigame1);
 		room_goto(lightsout);
 	};

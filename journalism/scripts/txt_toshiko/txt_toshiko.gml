@@ -41,18 +41,23 @@ function c_minigamecheck() {
 	//worst function youve ever seen, i dont care, its a jam game
 	var did = false;
 	if !global.didsleep && global.timeremaining <= 72-12 {
+		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if global.didsleep < 2 && global.timeremaining <= 72-36 {
+		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if global.didsleep < 3 && global.timeremaining <= 72-60 {
+		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
-	} else if !global.didramen && global.timeremaining <= 72-7 {
+	} 
+	/*
+	else if !global.didramen && global.timeremaining <= 72-7 {
 		room_goto(RAMENZONE);
 		global.didramen++;
 		did = true;
@@ -73,6 +78,7 @@ function c_minigamecheck() {
 		global.didramen++;
 		did = true;
 	}
+	*/
 	return did;
 }
 
