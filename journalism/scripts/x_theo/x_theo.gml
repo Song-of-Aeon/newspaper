@@ -13,5 +13,5 @@ array_push(global.paper.columns, new column("Theo", [
 "So in this mixed role, you've created a new game for this bird jam. What's your game about, and how have you shaped its vision?",
 "The theme of birds is quite an unusual one. Were you already a fan of birds before you made the game, and how did the theme end up influencing your game?",
 "If you had to describe your game as a species of bird, which would it be?",
-"Thank you for the interview, it was super fun!",
+"Thank you for your time! I look forwared to seeing your flappy birds.",
 ]));

@@ -1,4 +1,4 @@
 globalvar RAK;
-nu chardata("Rakaasac", "Rakaasac", s_null, u, .8);
+nu chardata("Rakaasac", "Rakaasac", s_rakaasac, u, .8);
 RAK = global.textguy[$"Rakaasac"];
-RAK.addspr("NOTHING");
+RAK.addspr("NEUTRAL");
