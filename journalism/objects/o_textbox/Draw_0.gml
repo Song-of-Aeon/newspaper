@@ -1,7 +1,7 @@
 //surface_set_target(global.surfaces.HUD);
 draw_set_font(font);
 for (i=array_length(bg)-1; i>=0; i--) {
-	draw_sprite_at(bg[i], count*(sprite_get_speed(bg[i])/60), 0, 0, 640, 360);
+	draw_sprite_at(bg[i], count*(sprite_get_speed(bg[i])/60), 0, 0, 1920, 1080);
 }
 bglogic();
 for (i=array_length(talkers)-1; i>=0; i--) {

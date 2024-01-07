@@ -1,6 +1,7 @@
 function txt_toshiko() {
 	
 	msg = msglang([
+	btxt(s_sky),
 	txt("The story begins with a curious Tengu..."),
 	txt("Uwuh, huh?", TOSHIKO.NEUTRAL, SPRITEPOS.LEFT),
 	txt("Hm? Who are you?", TOSHIKO.NEUTRAL, SPRITEPOS.LEFT),

@@ -1,0 +1,1 @@
+draw_spr(0, 0, s_sky);

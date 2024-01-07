@@ -5,9 +5,7 @@ function st_textadv() {
 	draw_self();
 	draw_set_color(talkers[0].namecolor);
 	draw_set_halign(fa_center);
-	doblue
-		draw_text(namepos.x+blue, namepos.y+blue, talkers[0].displayname);
-	endblue
+	draw_text(namepos.x, namepos.y, talkers[0].displayname);
 	draw_set_halign(fa_left);
 	draw_set_color(c_white);
 	
