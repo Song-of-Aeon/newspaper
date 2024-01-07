@@ -21,5 +21,5 @@ array_push(global.paper.columns, new column("Kit", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Alright, that should be everything. Thank you for your time!"
 ]));
-if not (arraycontains(globals.unlocks, "kit")) array_push(globals.unlocks, "kit");
+if not (array_contains(global.unlocks, "kit")) array_push(global.unlocks, "kit");
 }

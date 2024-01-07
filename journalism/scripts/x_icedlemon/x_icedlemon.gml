@@ -15,5 +15,5 @@ array_push(global.paper.columns, new column("IcedLemon", [
 "I see. Birb v Birb. Are you personally a fan of birds? Do you have any favorite birds?",
 "Alright. If you had to describe your game as a species of bird, what bird would it be, and why?",
 ]));
-if not (arraycontains(globals.unlocks, "icedlemon")) array_push(globals.unlocks, "icedlemon");
+if not (array_contains(global.unlocks, "icedlemon")) array_push(global.unlocks, "icedlemon");
 }

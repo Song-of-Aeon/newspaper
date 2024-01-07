@@ -15,5 +15,5 @@ array_push(global.paper.columns, new column("Trace", [
 "What is your game? What will it be like? What birds will the birders be able to expect?!",
 "If you had to describe your game as a species of bird, which would it be?"
 ]));
-if not (arraycontains(globals.unlocks, "solaris")) array_push(globals.unlocks, "trace");
+if not (array_contains(global.unlocks, "solaris")) array_push(global.unlocks, "trace");
 }

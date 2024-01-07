@@ -14,11 +14,16 @@ function txt_maintutorial() {
 
 function txt_sleeptutorial() {
 	msg = msglang([
-	txt("Turn all the lights off so you can fall asleep!"),
+	txt("Wow, I'm tired. Whelp, early bird gets the worm.", TOSHIKO.TIRED, SPRITEPOS.LEFT),
+	txt("Turn all the Kappa-power lights off so you can fall asleep!"),
+	txt("Left click on a light to turn its adjacent light off."),
 	txt("The faster you turn the lights off, the less time it will take to fall asleep."),
 	],[
 	
 	txt(""),
 	
 	]);
+	endevent = function() {
+		room_goto(lightsout);
+	};
 }
