@@ -12,6 +12,8 @@ function music_set(music, face=MUSFACE.FRONT, swaptype=MUSSWAP.INSTANT, pitch=1,
 		global.playingmusicdata = audio_play_sound(music.audio[face], 0, true);
 		audio_sound_pitch(global.playingmusicdata, pitch);
 		audio_sound_gain(global.playingmusicdata, volume*global.music/100, 0);
+		audio_sound_loop_start(global.playingmusicdata, music.loopStart);
+		audio_sound_loop_end(global.playingmusicdata, music.loopEnd);
 	}
 }
 

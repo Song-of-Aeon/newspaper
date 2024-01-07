@@ -4,7 +4,7 @@ function song(name_="among us trap remix", shortname="autr", audio_=[m_null], bp
 	bpm = bpm_;
 	description = description_;
 	map = map_;
-	loopStart = loopstart;
-	loopEnd = loopend;
+	loopStart = loopstart/1000;
+	loopEnd = loopend/1000;
 	variable_struct_set(global.tracklist, shortname, self);
 }
