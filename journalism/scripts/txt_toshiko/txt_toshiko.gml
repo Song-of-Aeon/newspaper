@@ -20,7 +20,7 @@ function txt_toshiko() {
 	txt("Not knowing what these games are about would keep me up at night!", TOSHIKO.CURIOUS, SPRITEPOS.LEFT),
 	txt("I'll have to work to interview as many people as possible.", TOSHIKO.NEUTRAL, SPRITEPOS.LEFT),
 	txt("Ah, alright.", RAK.NEUTRAL, SPRITEPOS.RIGHT),
-	txt("Please make sure to sleep…", RAK.NEUTRAL, SPRITEPOS.RIGHT),
+	txt("Please make sure to sleep...", RAK.NEUTRAL, SPRITEPOS.RIGHT),
 	],[
 	
 	txt(""),
@@ -28,6 +28,10 @@ function txt_toshiko() {
 	]);
 	
 	endevent = function() {
+		music_choice = random(2);
+		if music_choice <= 1 music_set(mus.interview1);
+		else music_set(mus.interview2);
+			
 		if !c_minigamecheck() c_makemenu(global.menus.main);
 	};
 }
