@@ -1,3 +1,4 @@
+function vinyis_column(){
 array_push(global.paper.columns, new column("Vinyis", [
 "A little bit of everything as necessary for my idea, but mostly design, art and writing because I hate programming.",
 "Arrgh, I'm bad at open-ended questions! It's me (Vinyis), recent-ish Touhou fan and just as recently amateur gamedev. I'm currently in the middle of an Art History degree, and like to do art in my spare time often centered around 3d and game development. I play all kinds of games, but while I'm not really a bullet hell player I got into Touhou because of its music, aesthetic, and more importantly massive community of creators that use these to make tons of different things.",
@@ -14,3 +15,5 @@ array_push(global.paper.columns, new column("Vinyis", [
 "What is your game? What will it be like? What birds will the birders be able to expect?!",
 "If you had to describe your game as a species of bird, which would it be?"
 ]));
+if not (arraycontains(globals.unlocks, "vinyis")) array_push(globals.unlocks, "vinyis");
+}

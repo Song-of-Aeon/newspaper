@@ -1,3 +1,4 @@
+function icedlemon_column(){
 array_push(global.paper.columns, new column("IcedLemon", [
 "Iced_Lemon is what I am called on the internet",
 "I mainly do art and programming as my passion. I do also like video games, but I actually prefer rougelikes games like risk of rain and star of providence. Speaking of games, I know a lot of games they no one had heard of that you can ask me for :) (also go play star of providence, it's an incredible gem of a rougelike)",
@@ -14,3 +15,5 @@ array_push(global.paper.columns, new column("IcedLemon", [
 "I see. Birb v Birb. Are you personally a fan of birds? Do you have any favorite birds?",
 "Alright. If you had to describe your game as a species of bird, what bird would it be, and why?",
 ]));
+if not (arraycontains(globals.unlocks, "icedlemon")) array_push(globals.unlocks, "icedlemon");
+}

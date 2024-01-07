@@ -1,3 +1,4 @@
+function juney_column(){
 array_push(global.paper.columns, new column("Juney", [
 "When it comes to making games, it's junejijo.",
 "I tend to be the director as well as the writer for games our circle [BakaBaku] creates. I've also been responsible for programming (not really my preference) and graphics (which I've slowly started to improve on) when in a pinch on various BaBaCi projects. I have served as a writer, advisor and in a handful of unpublished instances, a voice actor for games outside of BaBaCi.",
@@ -15,3 +16,5 @@ array_push(global.paper.columns, new column("Juney", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Alright. Thank you for your time! I hope readers will enjoy your 'cardinal'."
 ]));
+if not (arraycontains(globals.unlocks, "juney")) array_push(globals.unlocks, "juney");
+}

@@ -10,6 +10,7 @@ global.music = 100;
 global.kunctions = {};
 global.menus = {};
 global.timeremaining = 72;
+global.recruittimeremaining = 4;
 global.paper = {
 	name: "toshikos awesome newspaper",
 	date: "jan 2024",

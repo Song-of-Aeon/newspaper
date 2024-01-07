@@ -1,3 +1,4 @@
+function solaris_column(){
 array_push(global.paper.columns, new column("Solaris", [
 "Considering that my engine of choice is Ren'py I'd say that first and foremost I focus on having a good script and presentation. I think getting creative with audio and visuals really bring a story to life.",
 "I'm Solaris. So I think it's worth noting that I probably wouldn't have any interest in game development if it weren't for Pokemon. I discovered the series at a really young age like many, and as I grew older I was quickly introduced to the ROM hacking scene for the series. I remember having ideas in my head about hacks I would want to create since I was like, 11 or so? creating a full scale hack is still a dream of mine, and I think that love for taking a series I enjoy and spinning it in my own directions was definitely responsible for me getting interested in joining these game jams. in fact it was Pokemon fangames that were responsible for getting into the Touhou series in the first place! and in Touhou I've found fantastic hyperfixation that, in a sea of yuri creations I love has also coincidentally kind of made me feel seen as an aromantic, just due to how open everything is in regards to relationships. ",
@@ -18,3 +19,5 @@ array_push(global.paper.columns, new column("Solaris", [
 "(Do you want me to include the bottom line)",
 "Alright that should be everything then. Thank you for your time."
 ]));
+if not (arraycontains(globals.unlocks, "solaris")) array_push(globals.unlocks, "solaris");
+}

@@ -1,3 +1,4 @@
+function theo_column(){
 array_push(global.paper.columns, new column("Theo", [
 "I'm Theo!",
 "It's really relaxing! As an artist, I get a solid checklist of things to do that I can work towards throughout the jam. I actually joined a day late to help out another team, as I wasn't planning on participating this time... but the FOMO was real. I really love being able to show off my WIPs and draw my favorite characters, so I think it's my favorite role overall. I've worked as a programmer/UI artist before, and I find that to be the most stressful by far. I get so worried about letting down the other people in my team, either by running out of time or not giving the artists/musicians a project they'd be proud to show their work on. As an artist, though, it's just so exciting to see my work be brought to life regardless of exactly how, so I think programming is just prone to making someone very critical of their own work lol.",
@@ -15,3 +16,5 @@ array_push(global.paper.columns, new column("Theo", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Thank you for your time! I look forwared to seeing your flappy birds.",
 ]));
+if not (arraycontains(globals.unlocks, "theo")) array_push(globals.unlocks, "theo");
+}

@@ -1,3 +1,4 @@
+function kit_column(){
 array_push(global.paper.columns, new column("Kit", [
 "Alex ^^ (KitMakesGames).",
 "Well, you could say a bit of everything, though I'm a programmer first and foremost. I can do a bit of pixel art and can arrange music to a limited degree though.",
@@ -20,3 +21,5 @@ array_push(global.paper.columns, new column("Kit", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Alright, that should be everything. Thank you for your time!"
 ]));
+if not (arraycontains(globals.unlocks, "kit")) array_push(globals.unlocks, "kit");
+}

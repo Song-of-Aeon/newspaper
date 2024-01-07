@@ -1,5 +1,6 @@
 global.lightsout_container = []
-global.lightsout_size = 30
+global.lightsout_size = 5
+global.lightsout_duration = 30
 
 circle_radius = 200
 circle_mid_pos = [400,400]
