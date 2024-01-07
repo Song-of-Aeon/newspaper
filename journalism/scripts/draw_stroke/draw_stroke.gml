@@ -28,10 +28,10 @@ function draw_dot(x, y) {
 	draw_sprite_ext(s_pixel, 0, x, y, 1, 1, 0, draw_get_color(), draw_get_alpha());
 }
 
-#macro draw_line draw_stroke
-#macro draw_line_width draw_stroke
+//#macro draw_line draw_stroke
+//#macro draw_line_width draw_stroke
 //#macro draw_ring draw_ring
-#macro draw_point draw_dot
+//#macro draw_point draw_dot
 
 /*
 function shootyourself(dontcare) {

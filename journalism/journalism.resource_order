@@ -1,6 +1,22 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"CHR","order":1,"path":"folders/CHR.yy",},
+    {"name":"Dialogue","order":2,"path":"folders/Dialogue.yy",},
+    {"name":"Entities","order":3,"path":"folders/Entities.yy",},
+    {"name":"Fonts","order":4,"path":"folders/Fonts.yy",},
+    {"name":"game","order":14,"path":"folders/game.yy",},
+    {"name":"lightsout","order":5,"path":"folders/lightsout.yy",},
+    {"name":"Misc","order":6,"path":"folders/Misc.yy",},
+    {"name":"Music","order":7,"path":"folders/Music.yy",},
+    {"name":"Objects","order":8,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":10,"path":"folders/Scripts.yy",},
+    {"name":"slide_puzzle","order":11,"path":"folders/slide_puzzle.yy",},
+    {"name":"Sprites","order":12,"path":"folders/Sprites.yy",},
+    {"name":"Textbox","order":13,"path":"folders/Textbox.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"o_ramenthing","order":1,"path":"objects/o_ramenthing/o_ramenthing.yy",},
     {"name":"se_lightswitch","order":1,"path":"sounds/se_lightswitch/se_lightswitch.yy",},
   ],
 }

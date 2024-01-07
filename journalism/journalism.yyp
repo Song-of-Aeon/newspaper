@@ -39,13 +39,14 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"setup","path":"objects/setup/setup.yy",},},
     {"id":{"name":"pragma","path":"scripts/pragma/pragma.yy",},},
     {"id":{"name":"x_trace","path":"scripts/x_trace/x_trace.yy",},},
     {"id":{"name":"textbox_create","path":"scripts/textbox_create/textbox_create.yy",},},
+    {"id":{"name":"o_ramenthing","path":"objects/o_ramenthing/o_ramenthing.yy",},},
     {"id":{"name":"huecol","path":"scripts/huecol/huecol.yy",},},
     {"id":{"name":"deep_copy","path":"scripts/deep_copy/deep_copy.yy",},},
     {"id":{"name":"dir2hv","path":"scripts/dir2hv/dir2hv.yy",},},
@@ -288,15 +289,14 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"RAMENZONE","path":"rooms/RAMENZONE/RAMENZONE.yy",},},
     {"roomId":{"name":"AYAZONE","path":"rooms/AYAZONE/AYAZONE.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"textfieldboxzone","path":"rooms/textfieldboxzone/textfieldboxzone.yy",},},
     {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
     {"roomId":{"name":"slide_puzzle","path":"rooms/slide_puzzle/slide_puzzle.yy",},},
-    {"roomId":{"name":"RAMENZONE","path":"rooms/RAMENZONE/RAMENZONE.yy",},},
     {"roomId":{"name":"AYAZONE2","path":"rooms/AYAZONE2/AYAZONE2.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
