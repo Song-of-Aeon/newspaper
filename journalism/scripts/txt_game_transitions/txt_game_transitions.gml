@@ -5,6 +5,7 @@ function txt_maintutorial() {
 	txt("But stay mindful: You only have 72 hours to set up your newspaper."),
 	txt ("You'll have to balance interviewing, sleeping, and finding team members!"),
 	txt ("You can find team members with the 'find team members' button on the right!"),
+	txt ("It will take at least 1 hour to find a team member, but could take more."),
 	txt ("Find all your team members before 55 hours are up, or you'll have to end early!"),
 	txt ("Finally, you can use the control key to skip through text!"),
 	txt ("Good luck!")
