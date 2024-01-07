@@ -24,7 +24,6 @@ function txt_sleeptutorial() {
 	
 	]);
 	endevent = function() {
-		instance_destroy(o_menuman);
 		music_set(mus.minigame1);
 		room_goto(lightsout);
 	};
@@ -43,8 +42,8 @@ function txt_sleepwin() {
 		else music_set(mus.interview2);
 		if !c_minigamecheck() {
 			c_makemenu(global.menus.main);
-			log("KILL YOURSELF IMMEDIATELY");
-			//room_goto(AYAZONE2);
+			//log("KILL YOURSELF IMMEDIATELY");
+			room_goto(AYAZONE2);
 		}
 		
 	};

@@ -20,6 +20,7 @@ function c_makemenu(menu_) {
 }
 
 function c_drawbutton() {
+	draw_set_alpha(1);
 	draw_set_color(c_black);
 	//draw_set_color(#3F2D1B);
 	draw_rectangle(topleft.x, topleft.y, bottomright.x, bottomright.y, true);
