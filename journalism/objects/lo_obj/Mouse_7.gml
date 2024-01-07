@@ -40,3 +40,20 @@ else
 		global.lightsout_container[lo_right_index].state = true;
 		global.lightsout_container[lo_right_index].sprite_index = spr_lo_on;
 	}
+
+//Check for Win
+	var complete = true
+	
+	for (var i=0; i<global.lightsout_size; ++i)
+	{
+		if (global.lightsout_container[i].state == false)
+		{
+			complete = false
+		}
+	}
+	
+	if (complete == true)
+	{
+		instance_destroy(lo_timer);
+		textbox_create(txt_sleepwin);
+	}

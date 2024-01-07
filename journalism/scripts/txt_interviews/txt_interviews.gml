@@ -1,6 +1,7 @@
 function txt_interviews() {
 	
 	msg = msglang([
+	btxt(s_sky),
 	txt("Alright, time to interview them!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
 	txt("Interview Successful!")
 	],[
