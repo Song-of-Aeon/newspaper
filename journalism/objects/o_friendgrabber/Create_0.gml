@@ -1,6 +1,6 @@
 music_set(mus.minigame2);
 c_input();
-target = irandom(4);
+target = irandom(3);
 roles = ["Artist", "Test Reader", "Distributor", "Interviewer"];
 var funky = function() {
 	if mouse_within(x-sprite_width*.35, y-sprite_height*.35, x+sprite_width*.35, y+sprite_height*.35) && o_friendgrabber.select.hit {
@@ -21,7 +21,7 @@ repeat(200) {
 	chump.y = irandom(1080*.8)+1080*.1;
 	chump.sprite_index = s_heads;
 	do {
-		chump.image_index = irandom(4);
+		chump.image_index = irandom(3);
 	} until chump.image_index != target;
 	chump.image_speed = 0;
 }

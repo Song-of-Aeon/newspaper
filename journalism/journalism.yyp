@@ -286,8 +286,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"AYAZONE","path":"rooms/AYAZONE/AYAZONE.yy",},},
     {"roomId":{"name":"FRIENDZONE","path":"rooms/FRIENDZONE/FRIENDZONE.yy",},},
+    {"roomId":{"name":"AYAZONE","path":"rooms/AYAZONE/AYAZONE.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"textfieldboxzone","path":"rooms/textfieldboxzone/textfieldboxzone.yy",},},
     {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
