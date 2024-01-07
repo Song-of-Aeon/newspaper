@@ -53,7 +53,6 @@ function txt_sleepwin() {
 		else music_set(mus.interview2);
 		if !c_minigamecheck() {
 			c_makemenu(global.menus.main);
-			//log("KILL YOURSELF IMMEDIATELY");
 			room_goto(AYAZONE2);
 		}
 		
@@ -70,6 +69,46 @@ function txt_sleeplose(){
 		if music_choice <= 1 music_set(mus.interview1);
 		else music_set(mus.interview2);	
 		if !c_minigamecheck() c_makemenu(global.menus.main);
+	};
+}
+function txt_recruit() {
+	msg = msglang([
+	btxt(s_sky),
+	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("Left click the right character to recruit them!"),
+	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
+	],[
+	
+	txt(""),
+	
+	]);
+	endevent = function() {
+		music_set(mus.minigame2);
+		room_goto(FRIENDZONE);
+	};
+}
+function txt_recruitend() {
+	msg = msglang([
+	btxt(s_sky),
+	txt("Sweet I found them!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt(global.recruit_char + " recruited!"),
+	],[
+	
+	txt(""),
+	
+	]);
+	endevent = function() {
+		global.timeremaining -= 1;
+		global.recruittimeremaining -= 1;
+		audio_play_sound(se_successful, 1, false);
+		music_choice = random(2);
+		if music_choice <= 1 music_set(mus.interview1);
+		else music_set(mus.interview2);
+		if !c_minigamecheck() {
+			c_makemenu(global.menus.main);
+			room_goto(AYAZONE2);
+		}
 	};
 }
 
