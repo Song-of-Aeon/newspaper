@@ -238,6 +238,7 @@
     {"name":"ncm","order":16,"path":"scripts/ncm/ncm.yy",},
     {"name":"array_generate_2d","order":7,"path":"scripts/array_generate_2d/array_generate_2d.yy",},
     {"name":"x_juney","order":7,"path":"scripts/x_juney/x_juney.yy",},
+    {"name":"s_whiteyoukaimountain","order":22,"path":"sprites/s_whiteyoukaimountain/s_whiteyoukaimountain.yy",},
     {"name":"instance_nearest_array","order":15,"path":"scripts/instance_nearest_array/instance_nearest_array.yy",},
     {"name":"tile","order":3,"path":"objects/tile/tile.yy",},
     {"name":"sleep_counter","order":14,"path":"objects/sleep_counter/sleep_counter.yy",},

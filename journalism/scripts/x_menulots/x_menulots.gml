@@ -251,5 +251,5 @@ nu menu("main", [
 	),
 	
 ], function() {
-	draw_spr(0, 0, s_youkaimountain);
+	draw_spr(0, 0, s_whiteyoukaimountain);
 });

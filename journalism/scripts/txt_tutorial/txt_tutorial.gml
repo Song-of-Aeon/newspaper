@@ -24,6 +24,7 @@ function txt_sleeptutorial() {
 	
 	]);
 	endevent = function() {
+		instance_destroy(o_menuman);
 		music_set(mus.minigame1);
 		room_goto(lightsout);
 	};
@@ -33,14 +34,14 @@ function txt_sleepwin() {
 	txt("You turned all the lights off in time! Eight hours have passed!")
 ]);
 	endevent = function() {
-		room_goto(AYAZONE);
+		room_goto(AYAZONE2);
 		global.timeremaining -= 8;
 		audio_play_sound(se_successful, 1, false);
 		music_choice = random(2);
 		if music_choice <= 1 music_set(mus.interview1);
 		else music_set(mus.interview2);
 		
-		if c_minigamecheck() c_makemenu(global.menus.main);
+		if !c_minigamecheck() c_makemenu(global.menus.main);
 	};
 }
 function txt_sleeplose(){
@@ -48,11 +49,11 @@ function txt_sleeplose(){
 	txt("You weren't fast enough. Ten hours have passed.")
 ]);
 	endevent = function() {
-		room_goto(AYAZONE);
+		room_goto(AYAZONE2);
 		global.timeremaining -= 10;
 		music_choice = random(2);
 		if music_choice <= 1 music_set(mus.interview1);
 		else music_set(mus.interview2);	
-		if c_minigamecheck() c_makemenu(global.menus.main);
+		if !c_minigamecheck() c_makemenu(global.menus.main);
 	};
 }
