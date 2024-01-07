@@ -210,6 +210,7 @@
     {"id":{"name":"easemult","path":"scripts/easemult/easemult.yy",},},
     {"id":{"name":"AYAZONE","path":"rooms/AYAZONE/AYAZONE.yy",},},
     {"id":{"name":"nunction","path":"scripts/nunction/nunction.yy",},},
+    {"id":{"name":"o_dudepicker","path":"objects/o_dudepicker/o_dudepicker.yy",},},
     {"id":{"name":"ft_whatever","path":"fonts/ft_whatever/ft_whatever.yy",},},
     {"id":{"name":"draw_stroke","path":"scripts/draw_stroke/draw_stroke.yy",},},
     {"id":{"name":"tevent","path":"scripts/tevent/tevent.yy",},},

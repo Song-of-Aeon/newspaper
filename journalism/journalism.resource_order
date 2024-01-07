@@ -180,6 +180,7 @@
     {"name":"easemult","order":26,"path":"scripts/easemult/easemult.yy",},
     {"name":"AYAZONE","order":2,"path":"rooms/AYAZONE/AYAZONE.yy",},
     {"name":"nunction","order":40,"path":"scripts/nunction/nunction.yy",},
+    {"name":"o_dudepicker","order":13,"path":"objects/o_dudepicker/o_dudepicker.yy",},
     {"name":"ft_whatever","order":3,"path":"fonts/ft_whatever/ft_whatever.yy",},
     {"name":"draw_stroke","order":12,"path":"scripts/draw_stroke/draw_stroke.yy",},
     {"name":"tevent","order":54,"path":"scripts/tevent/tevent.yy",},
