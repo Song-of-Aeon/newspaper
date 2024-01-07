@@ -19,19 +19,20 @@ function c_makemenu(menu_) {
 
 function c_drawbutton() {
 	draw_set_color(c_white);
+	//draw_set_color(#3F2D1B);
 	draw_rectangle(topleft.x, topleft.y, bottomright.x, bottomright.y, true);
 	//log("bangin");
 	if hovered {
-		draw_set_alpha(.4);
-		draw_set_color(c_red);
-		draw_rectangle(topleft.x, topleft.y, bottomright.x, bottomright.y, false);
-		draw_set_color(c_white);
-		draw_set_alpha(1);
 		if timecost {
 			draw_set_halign(fa_right);
 			draw_text(bottomright.x, bottomright.y+4, "time cost: " + string(timecost) + " hour" + ((timecost != 1) ? "s" : ""));
 			draw_set_halign(fa_left);
 		}
+		draw_set_alpha(.4);
+		draw_set_color(c_red);
+		draw_rectangle(topleft.x, topleft.y, bottomright.x, bottomright.y, false);
+		draw_set_color(c_white);
+		draw_set_alpha(1);
 	}
 }
 
@@ -55,7 +56,7 @@ function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=
 		//log(topleft, bottomright);
 		//log(width, height);
 		hovered = mouse_within(topleft.x, topleft.y, bottomright.x, bottomright.y);
-		log("wow!")
+		//log("wow!");
 		if hovered && clicky && global.timeremaining >= timecost {
 			log("yippee!");
 			global.timeremaining -= timecost;
