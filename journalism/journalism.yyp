@@ -140,6 +140,7 @@
     {"id":{"name":"deep_compare","path":"scripts/deep_compare/deep_compare.yy",},},
     {"id":{"name":"m_title","path":"sounds/m_title/m_title.yy",},},
     {"id":{"name":"border","path":"objects/border/border.yy",},},
+    {"id":{"name":"se_lightswitch","path":"sounds/se_lightswitch/se_lightswitch.yy",},},
     {"id":{"name":"st_textnvl","path":"scripts/st_textnvl/st_textnvl.yy",},},
     {"id":{"name":"texteffect","path":"scripts/texteffect/texteffect.yy",},},
     {"id":{"name":"txt_","path":"scripts/txt_/txt_.yy",},},

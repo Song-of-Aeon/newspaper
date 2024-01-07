@@ -1,3 +1,4 @@
+		audio_play_sound(se_lightswitch, 1, false);
 if(state == true)
 	{
 		state = false;

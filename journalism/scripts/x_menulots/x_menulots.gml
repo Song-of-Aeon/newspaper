@@ -255,7 +255,7 @@ nu menu("main", [
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
 			c_drawbutton();
-		}, 2,
+		}, 0,
 	),
 	
 ], function() {
