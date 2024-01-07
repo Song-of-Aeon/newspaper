@@ -137,6 +137,7 @@ nu menu("paper", [
 		new vec2(20, 74),
 		new vec2(72, 74+932),
 		function() {
+			global.gameflag = false;
 			instance_destroy(o_menuman);
 			c_makemenu(global.menus.start);
 			music_set(mus.title);

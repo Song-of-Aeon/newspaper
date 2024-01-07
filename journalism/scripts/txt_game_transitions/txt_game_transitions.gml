@@ -6,6 +6,7 @@ function txt_maintutorial() {
 	txt ("You'll have to balance interviewing, sleeping, and finding team members!"),
 	txt ("You can find team members with the 'find team members' button on the right!"),
 	txt ("Find all your team members before 55 hours are up, or you'll have to end early!"),
+	txt ("Finally, you can use the control key to skip through text!"),
 	txt ("Good luck!")
 	],[
 	
@@ -165,13 +166,9 @@ function txt_recruitfail() {
 		btxt(s_desk),
 	txt("I don't have time for any more interviews. I've gotta recruit team members.", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),	
 	txt("Toshiko uses the remaining time to recruit her team members."),
-	txt("After finding them all, her newspaper is ready."),	
-	txt("Click on pages to go forward and back through the newspaper.")
 	]);
 	endevent = function() {
-		music_set(mus.reading);
-		global.gameflag = false;
-		c_makemenu(global.menus.paper);
+		textbox_create(txt_publish);
 	}
 }
 
@@ -187,12 +184,14 @@ function txt_publish(){
 	msg = msglang([
 		btxt(s_desk),
 	txt("The newspaper is ready!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("Your interviews are ready to read. Click on pages to go forward and back through the newspaper.")
+	txt("Your interviews are ready to read. Click on pages to go forward and back through the newspaper."),
+	txt("Even if a page is blank, you can still click it.")
 	]);
 	}
 	endevent = function() {
 		if (array_length(global.paper.columns)== 0){
 			instance_destroy(o_menuman);
+			global.gameflag = false;
 			c_makemenu(global.menus.start);
 			music_set(mus.title);
 			global.timeremaining = 72;
