@@ -62,8 +62,14 @@ function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=
 		//log("wow!");
 		if hovered && clicky && global.timeremaining >= timecost {
 			log("yippee!");
-			global.timeremaining -= timecost;
-			onclick();
+			if (global.recruittimeremaining == 0 && timecost == 1)
+			{
+			}
+			else
+			{
+				global.timeremaining -= timecost;
+				onclick();
+			}
 		}
 	}
 }
