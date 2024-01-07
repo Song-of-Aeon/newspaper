@@ -214,8 +214,7 @@ function bonus_interview(){
 	txt("I've got an interview with some special!", TOSHIKO.NEUTRAL, SPRITEPOS.LEFT),
 	txt("I asked them for an interview, and they were like: 'Huh k.'", TOSHIKO.NEUTRAL, SPRITEPOS.LEFT),
 	txt("Heyo.", RAK.NEUTRAL, SPRITEPOS.RIGHT),
-	txt("Enjoy this special interview with jamhost Rakaasac. Click on pages to go forward and back through the newspaper."),
-	txt("Even if a page is blank, you can still click it.")
+	txt("Enjoy this special interview with jamhost Rakaasac.")
 	]);
 	endevent = function() {
 		rakaasac_column();

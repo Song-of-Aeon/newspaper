@@ -77,8 +77,8 @@ function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=
 
 nu menu("start", [
 	new button(
-		new vec2(WIDTH*.4, HEIGHT*.4),
-		new vec2(WIDTH*.6, HEIGHT*.5),
+		new vec2(WIDTH*.4, HEIGHT*.5),
+		new vec2(WIDTH*.6, HEIGHT*.6),
 		function() {
 			instance_destroy(o_menuman);
 			textbox_create(txt_toshiko);
@@ -93,8 +93,8 @@ nu menu("start", [
 		}
 	),
 	new button(
-		new vec2(WIDTH*.4, HEIGHT*.55),
-		new vec2(WIDTH*.6, HEIGHT*.65),
+		new vec2(WIDTH*.4, HEIGHT*.65),
+		new vec2(WIDTH*.6, HEIGHT*.75),
 		function() {
 			instance_destroy(o_menuman);
 			textbox_create(bonus_interview);
@@ -109,8 +109,8 @@ nu menu("start", [
 		}
 	),
 	new button(
-		new vec2(WIDTH*.4, HEIGHT*.7),
-		new vec2(WIDTH*.6, HEIGHT*.8),
+		new vec2(WIDTH*.4, HEIGHT*.8),
+		new vec2(WIDTH*.6, HEIGHT*.9),
 		game_end,
 		function() {
 			draw_set_halign(fa_center);
@@ -124,8 +124,7 @@ nu menu("start", [
 ], function() {
 	draw_spr(0, 0, s_desk);
 	draw_set_halign(fa_center);
-	draw_meaning(WIDTH/2, HEIGHT*.15, "Touhou: Game Jam \n Kerfluffle", u, 5);
-	draw_set_halign(fa_left);
+	draw_sprite(s_logo, -1, 700, 0);
 });
 
 nu menu("paper", [

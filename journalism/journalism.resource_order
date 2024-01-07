@@ -22,6 +22,7 @@
     {"name":"AYAZONE3","order":1,"path":"rooms/AYAZONE3/AYAZONE3.yy",},
     {"name":"se_lightswitch","order":1,"path":"sounds/se_lightswitch/se_lightswitch.yy",},
     {"name":"x_rakaasac","order":3,"path":"scripts/x_rakaasac/x_rakaasac.yy",},
+    {"name":"s_logo","order":4,"path":"sprites/s_logo/s_logo.yy",},
     {"name":"chr_heads","order":1,"path":"scripts/chr_heads/chr_heads.yy",},
   ],
 }

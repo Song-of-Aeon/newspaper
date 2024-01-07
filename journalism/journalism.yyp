@@ -244,6 +244,7 @@
     {"id":{"name":"ft_whatever","path":"fonts/ft_whatever/ft_whatever.yy",},},
     {"id":{"name":"m_minigame1","path":"sounds/m_minigame1/m_minigame1.yy",},},
     {"id":{"name":"ft_costania","path":"fonts/ft_costania/ft_costania.yy",},},
+    {"id":{"name":"s_logo","path":"sprites/s_logo/s_logo.yy",},},
     {"id":{"name":"draw_stroke","path":"scripts/draw_stroke/draw_stroke.yy",},},
     {"id":{"name":"slide_puzzle","path":"rooms/slide_puzzle/slide_puzzle.yy",},},
     {"id":{"name":"tevent","path":"scripts/tevent/tevent.yy",},},
