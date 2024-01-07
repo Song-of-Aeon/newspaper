@@ -10,6 +10,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "historyleaf") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "historyleaf", u, u, c_black);
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -26,6 +30,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "juney") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "juney");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -42,6 +50,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "molly") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "molly");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -58,6 +70,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "theo") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "theo");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -75,6 +91,10 @@ nu menu("main", [
 			
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "liam") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "liam");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -91,6 +111,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "vinyis") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "vinyis");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -107,6 +131,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "icedlemon") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "icedlemon");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -123,6 +151,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "solaris") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "solaris");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -140,6 +172,10 @@ nu menu("main", [
 			//log("im trace");
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "trace") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "trace");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -156,6 +192,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "saishoo") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "saishoo");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -188,6 +228,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "kit") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "kit");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
@@ -204,6 +248,10 @@ nu menu("main", [
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
+			if (array_get_index(global.unlocks, "citrus") != -1)
+			{
+				draw_meaning(x, y - 40, "***", u, u, c_black);
+			}
 			draw_meaning(x, y, "citrus");
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
