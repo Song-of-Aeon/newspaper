@@ -63,6 +63,7 @@
     {"id":{"name":"is_oob","path":"scripts/is_oob/is_oob.yy",},},
     {"id":{"name":"rmrng","path":"scripts/rmrng/rmrng.yy",},},
     {"id":{"name":"easing","path":"scripts/easing/easing.yy",},},
+    {"id":{"name":"s_youkaimountain","path":"sprites/s_youkaimountain/s_youkaimountain.yy",},},
     {"id":{"name":"x_vinyis","path":"scripts/x_vinyis/x_vinyis.yy",},},
     {"id":{"name":"spr_lo_off","path":"sprites/spr_lo_off/spr_lo_off.yy",},},
     {"id":{"name":"animation_destroy","path":"scripts/animation_destroy/animation_destroy.yy",},},
