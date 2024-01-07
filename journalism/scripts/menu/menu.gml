@@ -77,8 +77,8 @@ function button(topleft_, bottomright_, onclick_, draw_=c_drawbutton, timecost_=
 
 nu menu("start", [
 	new button(
-		new vec2(WIDTH*.4, HEIGHT*.5),
-		new vec2(WIDTH*.6, HEIGHT*.6),
+		new vec2(WIDTH*.4, HEIGHT*.4),
+		new vec2(WIDTH*.6, HEIGHT*.5),
 		function() {
 			instance_destroy(o_menuman);
 			textbox_create(txt_toshiko);
@@ -87,6 +87,22 @@ nu menu("start", [
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);
 			draw_meaning(x, y, "Start", u, 2);
+			draw_set_valign(fa_top);
+			draw_set_halign(fa_left);
+			c_drawbutton();
+		}
+	),
+	new button(
+		new vec2(WIDTH*.4, HEIGHT*.55),
+		new vec2(WIDTH*.6, HEIGHT*.65),
+		function() {
+			instance_destroy(o_menuman);
+			textbox_create(bonus_interview);
+		},
+		function() {
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			draw_meaning(x, y, "Bonus Interview!", u, 2);
 			draw_set_valign(fa_top);
 			draw_set_halign(fa_left);
 			c_drawbutton();
