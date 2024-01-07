@@ -127,6 +127,22 @@ nu menu("paper", [
 			c_drawbutton();
 		}
 	),
+	new button(
+		new vec2(20, 74),
+		new vec2(72, 74+932),
+		function() {
+			instance_destroy(o_menuman);
+			c_makemenu(global.menus.start);
+			music_set(mus.title);
+		}, function() {
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_middle);
+			draw_meaning(x, y, "M\na\ni\nn\n \nM\ne\nn\nu");
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			c_drawbutton();
+		}
+	),
 ], function() {
 	with o_menuman {
 		statish("page", 0);
