@@ -1,4 +1,4 @@
-function txt_tutorial() {
+function txt_maintutorial() {
 	msg = msglang([
 	txt("Interview different developers as Toshiko!"),
 	txt("But stay mindful: You only have 72 hours to set up your newspaper."),
@@ -10,12 +10,15 @@ function txt_tutorial() {
 	txt(""),
 	
 	]);
-	
-	endevent = function() {
-		if !c_minigamecheck() c_makemenu(global.menus.main);
-	};
 }
 
-global.didramen = 0;
-global.didsleep = 0;
-global.teammates = 0;
+function txt_sleeptutorial() {
+	msg = msglang([
+	txt("Turn all the lights off so you can fall asleep!"),
+	txt("The faster you turn the lights off, the less time it will take to fall asleep."),
+	],[
+	
+	txt(""),
+	
+	]);
+}
