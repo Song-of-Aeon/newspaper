@@ -34,5 +34,5 @@ if (global.recruittimeremaining <= 0)
 		time_to_sleep = 0
 	}
 	
-	draw_text_transformed(1300,80,"Sleep happens in " + string(time_to_sleep) + " hours",0.75,0.75,0)
+	draw_text_transformed(1300,100,"Sleep happens in " + string(time_to_sleep) + " hours",0.75,0.75,0)
 }

@@ -72,17 +72,66 @@ function txt_sleeplose(){
 	};
 }
 function txt_recruit() {
+	if (global.recruit_char == "Artist")
+	{
 	msg = msglang([
 	btxt(s_sky),
 	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
 	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
 	txt("Left click the right character to recruit them!"),
 	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
+	txt("The " + global.recruit_char + " looks like this.", HEADS.Artist, SPRITEPOS.CENTER)
 	],[
 	
 	txt(""),
 	
 	]);
+	}
+	if (global.recruit_char == "Distributor")
+	{
+	msg = msglang([
+	btxt(s_sky),
+	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("Left click the right character to recruit them!"),
+	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
+	txt("The " + global.recruit_char + " looks like this.", HEADS.Distributor, SPRITEPOS.CENTER)
+	],[
+	
+	txt(""),
+	
+	]);
+	}
+	if (global.recruit_char == "Test Reader")
+	{
+	msg = msglang([
+	btxt(s_sky),
+	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("Left click the right character to recruit them!"),
+	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
+	txt("The " + global.recruit_char + " looks like this.", HEADS.TestReader, SPRITEPOS.CENTER)
+	],[
+	
+	txt(""),
+	
+	]);
+	}
+	if (global.recruit_char == "Interviewer")
+	{
+	msg = msglang([
+	btxt(s_sky),
+	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+	txt("Left click the right character to recruit them!"),
+	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
+	txt("The " + global.recruit_char + " looks like this.", HEADS.Interviewer, SPRITEPOS.CENTER)
+	],[
+	
+	txt(""),
+	
+	]);
+	}
 	endevent = function() {
 		music_set(mus.minigame2);
 		room_goto(FRIENDZONE);
@@ -110,6 +159,20 @@ function txt_recruitend() {
 			room_goto(AYAZONE2);
 		}
 	};
+}
+function txt_recruitfail() {
+	msg = msglang([
+		btxt(s_desk),
+	txt("I don't have time for any more interviews. I've gotta recruit team members.", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),	
+	txt("Toshiko uses the remaining time to recruit her team members."),
+	txt("After finding them all, her newspaper is ready."),	
+	txt("Click on pages to go forward and back through the newspaper.")
+	]);
+	endevent = function() {
+		music_set(mus.reading);
+		global.gameflag = false;
+		c_makemenu(global.menus.paper);
+	}
 }
 
 function txt_publish(){
