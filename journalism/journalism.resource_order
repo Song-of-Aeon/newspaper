@@ -130,6 +130,7 @@
     {"name":"draw_polygon","order":8,"path":"scripts/draw_polygon/draw_polygon.yy",},
     {"name":"x_touhouwords","order":65,"path":"scripts/x_touhouwords/x_touhouwords.yy",},
     {"name":"m_minigame2","order":10,"path":"sounds/m_minigame2/m_minigame2.yy",},
+    {"name":"txt_tutorial","order":6,"path":"scripts/txt_tutorial/txt_tutorial.yy",},
     {"name":"gcd","order":6,"path":"scripts/gcd/gcd.yy",},
     {"name":"load_tevents","order":36,"path":"scripts/load_tevents/load_tevents.yy",},
     {"name":"make_value","order":70,"path":"scripts/make_value/make_value.yy",},

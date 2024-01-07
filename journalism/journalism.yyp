@@ -156,6 +156,7 @@
     {"id":{"name":"x_touhouwords","path":"scripts/x_touhouwords/x_touhouwords.yy",},},
     {"id":{"name":"m_minigame2","path":"sounds/m_minigame2/m_minigame2.yy",},},
     {"id":{"name":"ac_sin","path":"animcurves/ac_sin/ac_sin.yy",},},
+    {"id":{"name":"txt_tutorial","path":"scripts/txt_tutorial/txt_tutorial.yy",},},
     {"id":{"name":"gcd","path":"scripts/gcd/gcd.yy",},},
     {"id":{"name":"load_tevents","path":"scripts/load_tevents/load_tevents.yy",},},
     {"id":{"name":"make_value","path":"scripts/make_value/make_value.yy",},},
