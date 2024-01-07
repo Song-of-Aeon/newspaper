@@ -277,11 +277,11 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"slide_puzzle","path":"rooms/slide_puzzle/slide_puzzle.yy",},},
     {"roomId":{"name":"AYAZONE","path":"rooms/AYAZONE/AYAZONE.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"textfieldboxzone","path":"rooms/textfieldboxzone/textfieldboxzone.yy",},},
     {"roomId":{"name":"lightsout","path":"rooms/lightsout/lightsout.yy",},},
+    {"roomId":{"name":"slide_puzzle","path":"rooms/slide_puzzle/slide_puzzle.yy",},},
     {"roomId":{"name":"RAMENZONE","path":"rooms/RAMENZONE/RAMENZONE.yy",},},
   ],
   "templateType": null,
