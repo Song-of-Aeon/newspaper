@@ -23,4 +23,5 @@ array_push(global.paper.columns, new column("Historyleaf", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Feisty. That's everything. Thank your for your time!"
 ]));
+if not (arraycontains(globals.unlocks, "historyleaf")) array_push(globals.unlocks, "historyleaf");
 }

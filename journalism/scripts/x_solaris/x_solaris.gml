@@ -19,4 +19,5 @@ array_push(global.paper.columns, new column("Solaris", [
 "(Do you want me to include the bottom line)",
 "Alright that should be everything then. Thank you for your time."
 ]));
+if not (arraycontains(globals.unlocks, "solaris")) array_push(globals.unlocks, "solaris");
 }

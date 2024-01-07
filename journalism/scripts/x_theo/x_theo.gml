@@ -16,4 +16,5 @@ array_push(global.paper.columns, new column("Theo", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Thank you for your time! I look forwared to seeing your flappy birds.",
 ]));
+if not (arraycontains(globals.unlocks, "theo")) array_push(globals.unlocks, "theo");
 }

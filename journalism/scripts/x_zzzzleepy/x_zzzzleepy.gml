@@ -21,4 +21,5 @@ array_push(global.paper.columns, new column("ZzzZleepy", [
 "And as a bonus: If you had to describe your game as a specie of bug, which would it be?",
 "Alright, that's everything. Thank your for your time!"
 ]));
+if not (arraycontains(globals.unlocks, "zzzzleepy")) array_push(globals.unlocks, "zzzzleepy");
 }

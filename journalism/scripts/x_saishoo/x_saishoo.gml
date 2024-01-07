@@ -19,4 +19,5 @@ array_push(global.paper.columns, new column("Saishoo", [
 "Dang! You're not kidding. Is there something that drives you to pursue so many interests? Or do you think that exploring new experiences is just an aspect of your personality?",
 "Well to ties this back together completely naturally: If you had to describe your game as a species of bird, which would it be?",
 "Good luck the many projects I'm sure you're working on. Thank you for your time!"]));
+if not (arraycontains(globals.unlocks, "saishoo")) array_push(globals.unlocks, "saishoo");
 }

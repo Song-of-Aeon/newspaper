@@ -16,4 +16,5 @@ array_push(global.paper.columns, new column("Juney", [
 "If you had to describe your game as a species of bird, which would it be?",
 "Alright. Thank you for your time! I hope readers will enjoy your 'cardinal'."
 ]));
+if not (arraycontains(globals.unlocks, "juney")) array_push(globals.unlocks, "juney");
 }

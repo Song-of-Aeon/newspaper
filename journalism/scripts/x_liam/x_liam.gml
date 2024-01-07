@@ -16,4 +16,5 @@ array_push(global.paper.columns, new column("Liam", [
 "What an excellent bird. Lastly, what is the hardest part of the game development process for you?",
 "Alright. Thank you for your time. I look forward to the 'bird bullets'!",
 ]));
+if not (arraycontains(globals.unlocks, "liam")) array_push(globals.unlocks, "liam");
 }
