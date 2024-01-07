@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "s_spacetext",
-  "bbox_bottom": 311,
+  "bbox_bottom": 344,
   "bbox_left": 0,
-  "bbox_right": 1247,
+  "bbox_right": 1407,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 0,
@@ -16,14 +16,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97a01d33-ef89-4d02-a3f9-3c5c8a69eebf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"764e2dbb-f29c-40df-a8ef-ec3a6773715b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 312,
+  "height": 345,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0df88211-3290-4be6-a486-10d33f53ee11","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a9dc1bd-9e6a-4b65-9f62-64fe85a6a8ef","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -57,7 +57,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"97a01d33-ef89-4d02-a3f9-3c5c8a69eebf","path":"sprites/s_spacetext/s_spacetext.yy",},},},"Disabled":false,"id":"3c8da656-a90b-476e-99d3-ef9e21c737bc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"764e2dbb-f29c-40df-a8ef-ec3a6773715b","path":"sprites/s_spacetext/s_spacetext.yy",},},},"Disabled":false,"id":"ed31b5ba-a288-404b-84ff-304e42f90abc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -73,5 +73,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1248,
+  "width": 1408,
 }
