@@ -29,11 +29,7 @@ function txt_toshiko() {
 	]);
 	
 	endevent = function() {
-		music_choice = random(2);
-		if music_choice <= 1 music_set(mus.interview1);
-		else music_set(mus.interview2);
-			
-		if !c_minigamecheck() c_makemenu(global.menus.main);
+		textbox_create(txt_maintutorial);
 	};
 }
 

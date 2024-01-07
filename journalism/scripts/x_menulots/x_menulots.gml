@@ -198,6 +198,7 @@ nu menu("main", [
 		new vec2(937, 27),
 		new vec2(937+270, 27+125),
 		function() {
+			citrus_column();
 			textbox_create(txt_interviews);
 			instance_destroy(o_menuman);
 		}, function() {
@@ -246,7 +247,7 @@ nu menu("main", [
 		new vec2(1499+370, 874+125),
 		function() {
 			instance_destroy(o_menuman);
-			c_makemenu(global.menus.paper);
+			textbox_create(txt_publish);
 		}, function() {
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_middle);

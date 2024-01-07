@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "txt_tutorial",
+  "name": "x_citrus",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Dialogue.yy",
+    "name": "game",
+    "path": "folders/game.yy",
   },
 }
