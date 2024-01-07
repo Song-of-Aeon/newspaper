@@ -246,8 +246,10 @@ nu menu("main", [
 		new vec2(1499, 574),
 		new vec2(1499+370, 574+125),
 		function() {
+			if (global.recruittimeremaining >= 1){
 			instance_destroy(o_menuman);
 			textbox_create(txt_recruit);
+			}
 		}, function() {
 			if (global.recruittimeremaining == 4) global.recruit_char = "Artist"
 			if (global.recruittimeremaining == 3) global.recruit_char = "Test Reader"

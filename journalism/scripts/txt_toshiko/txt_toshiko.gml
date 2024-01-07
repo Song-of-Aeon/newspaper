@@ -36,7 +36,12 @@ function txt_toshiko() {
 function c_minigamecheck() {
 	//worst function youve ever seen, i dont care, its a jam game
 	var did = false;
-	if !global.didsleep && global.timeremaining <= 72-12 {
+	if global.recruittimeremaining >= 1 && global.timeremaining <= 72 - 55 {
+		instance_destroy(o_menuman);
+		textbox_create(txt_recruitfail);
+		did = true;
+	}
+	else if !global.didsleep && global.timeremaining <= 72-12 {
 		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
