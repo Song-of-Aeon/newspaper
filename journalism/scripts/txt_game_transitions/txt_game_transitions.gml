@@ -74,71 +74,86 @@ function txt_sleeplose(){
 	};
 }
 function txt_recruit() {
-	if (global.recruit_char == "Artist")
+	if window_get_fullscreen()
 	{
-	msg = msglang([
-	btxt(s_sky),
-	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("Left click the right character to recruit them!"),
-	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
-	txt("The " + global.recruit_char + " looks like this.", HEADS.Artist, SPRITEPOS.CENTER)
-	],[
+		msg = msglang([
+		btxt(s_sky),
+		txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+		txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+		txt("Left click the right character to recruit them!"),
+		txt("Be careful: if you click on the wrong character, you'll lose an hour of time!")
+		],[
 	
-	txt(""),
-	
-	]);
+		txt(""),	
+		]);
 	}
-	if (global.recruit_char == "Distributor")
+	else
 	{
-	msg = msglang([
-	btxt(s_sky),
-	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("Left click the right character to recruit them!"),
-	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
-	txt("The " + global.recruit_char + " looks like this.", HEADS.Distributor, SPRITEPOS.CENTER)
-	],[
+		msg = msglang([
+		btxt(s_sky),
+		txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+		txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
+		txt("Left click the right character to recruit them!")
+		],[
 	
-	txt(""),
-	
-	]);
+		txt(""),	
+		]);
 	}
-	if (global.recruit_char == "Test Reader")
-	{
-	msg = msglang([
-	btxt(s_sky),
-	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("Left click the right character to recruit them!"),
-	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
-	txt("The " + global.recruit_char + " looks like this.", HEADS.TestReader, SPRITEPOS.CENTER)
-	],[
+
+	endevent = function() {
+		textbox_create(txt_recruitcheck);
+	};
+}
+function txt_recruitcheck() {
+	if (global.recruit_char == "Artist"){
+		msg = msglang([
+		btxt(s_sky),
+		txt("The " + global.recruit_char + " looks like this.", HEADS.Artist, SPRITEPOS.CENTER)
+		],[
 	
-	txt(""),
+		txt(""),
 	
-	]);
+		]);
 	}
-	if (global.recruit_char == "Interviewer")
+	else if (global.recruit_char == "Test Reader")
 	{
-	msg = msglang([
-	btxt(s_sky),
-	txt("It's time to find a team-member!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("I'll search for a " + global.recruit_char + "!", TOSHIKO.NEUTRAL, SPRITEPOS.CENTER),
-	txt("Left click the right character to recruit them!"),
-	txt("Be careful: if you click on the wrong character, you'll lose an hour of time!"),
-	txt("The " + global.recruit_char + " looks like this.", HEADS.Interviewer, SPRITEPOS.CENTER)
-	],[
+		msg = msglang([
+		btxt(s_sky),
+		txt("The " + global.recruit_char + " looks like this.", HEADS.TestReader, SPRITEPOS.CENTER)
+		],[
 	
-	txt(""),
+		txt(""),
 	
-	]);
+		]);
+	}
+	else if (global.recruit_char == "Distributor"){
+		msg = msglang([
+		btxt(s_sky),
+		txt("The " + global.recruit_char + " looks like this.", HEADS.Distributor, SPRITEPOS.CENTER)
+		],[
+	
+		txt(""),
+	
+		]);
+	}
+	else if (global.recruit_char == "Interviewer")
+	{
+		msg = msglang([
+		btxt(s_sky),
+		txt("The " + global.recruit_char + " looks like this.", HEADS.Interviewer, SPRITEPOS.CENTER)
+		],[
+	
+		txt(""),
+	
+		]);
 	}
 	endevent = function() {
 		music_set(mus.minigame2);
 		room_goto(FRIENDZONE);
 	};
+	
 }
+
 function txt_recruitend() {
 	msg = msglang([
 	btxt(s_sky),

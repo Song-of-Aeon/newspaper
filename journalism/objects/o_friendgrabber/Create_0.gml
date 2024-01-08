@@ -13,7 +13,8 @@ var funky = function() {
 			room_goto(AYAZONE3);
 		} else {
 			audio_play_sound(se_failure, 1, false);
-			global.timeremaining--;
+			if window_get_fullscreen()
+				global.timeremaining--;
 			room_restart();
 		}
 		kys;
