@@ -1,1 +1,1 @@
-alarm_set(0, 3000);
+alarm_set(0, global.lighttimer);

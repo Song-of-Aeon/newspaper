@@ -47,16 +47,19 @@ function c_minigamecheck() {
 		did = true;
 	}
 	else if !global.didsleep && global.timeremaining <= 72-12 {
+		global.lighttimer = 2500;
 		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if global.didsleep < 2 && global.timeremaining <= 72-36 {
+		global.lighttimer = 1300;
 		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
 		did = true;
 	} else if global.didsleep < 3 && global.timeremaining <= 72-60 {
+		global.lighttimer = 1300;
 		instance_destroy(o_menuman);
 		textbox_create(txt_sleeptutorial);
 		global.didsleep++;
